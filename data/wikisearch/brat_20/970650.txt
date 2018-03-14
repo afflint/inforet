@@ -1,0 +1,2 @@
+Specific absorption rate (SAR) is a measure of the rate at which energy is absorbed by the human body when exposed to a radio frequency (RF) electromagnetic field. It can also refer to absorption of other forms of energy by tissue, including ultrasound. It is defined as the power absorbed per mass of tissue and has units of watts per kilogram (W/kg).
+SAR is usually averaged either over the whole body, or over a small sample volume (typically 1 g or 10 g of tissue). The value cited is then the maximum level measured in the body part studied over the stated volume or mass.

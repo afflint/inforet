@@ -1,0 +1,1 @@
+Problem solving consists of using generic or ad hoc methods, in an orderly manner, for finding solutions to problems. Some of the problem-solving techniques developed and used in artificial intelligence, computer science, engineering, mathematics, or medicine are related to mental problem-solving techniques studied in psychology.

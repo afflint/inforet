@@ -1,0 +1,1 @@
+The Air Pollution Index (API) is a simple and generalized way to describe the air quality, which is used in Malaysia. It is calculated from several sets of air pollution data. It was formerly used in mainland China and Hong Kong. In mainland China the API was replaced by an updated Air Quality Index in early 2012 and on 30 December 2013 Hong Kong moved to a health based index.
