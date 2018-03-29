@@ -1,0 +1,31 @@
+T1	Claim 475 546	The benefits of teaching students different units are easily recognized
+A1	Stance T1 For
+T2	Premise 568 691	with some basic knowledge of diverse fields, students have more options in choosing specialized areas or jobs in the future
+T3	Premise 693 777	Teenagers are still too young and immature to decide what they are going to dedicate
+T4	Premise 779 926	In students' point of view, the combination of difficult and easy subjects balances their schoolwork stress and fosters their enthusiasm on classes
+T5	Premise 943 1002	many teenagers cannot enjoy the variation of the curriculum
+T6	Premise 1013 1080	they feel more stressful with so much homework and exams to be done
+T7	Premise 1091 1177	most students regard the extra knowledge useless and impractical for their future jobs
+T8	Claim 1235 1353	this education model can cultivate more talents who specialized in different areas and increase studying effectiveness
+A2	Stance T8 Against
+T9	Premise 1380 1476	students can devote more time and efforts in one subject and reduce pressure from other subjects
+T10	Premise 1487 1544	the drawbacks of this teaching method cannot be neglected
+T11	Premise 1564 1725	under such target-oriented education environment, teenagers may be hard to regret their original choice and change their specialized field in their further study
+T12	Premise 1737 1803	the dullness of course may deeply influence their passion on study
+T13	Premise 1827 1934	concentrating on one subject can reduce students' pressure and foster the effectiveness in training talents
+T14	Premise 1942 1989	its shortfalls are so vital to students' future
+T15	MajorClaim 2002 2055	I do support the view of learning all school subjects
+R1	supports Arg1:T2 Arg2:T1	
+R2	supports Arg1:T3 Arg2:T1	
+R3	supports Arg1:T4 Arg2:T1	
+R4	attacks Arg1:T5 Arg2:T1	
+R5	attacks Arg1:T6 Arg2:T1	
+R6	attacks Arg1:T7 Arg2:T1	
+R7	supports Arg1:T9 Arg2:T8	
+R8	attacks Arg1:T10 Arg2:T8	
+R9	attacks Arg1:T11 Arg2:T8	
+R10	attacks Arg1:T12 Arg2:T8	
+R11	supports Arg1:T14 Arg2:T15	
+R12	attacks Arg1:T13 Arg2:T15	
+R13	supports Arg1:T1 Arg2:T15	
+R14	attacks Arg1:T8 Arg2:T15	

@@ -1,0 +1,26 @@
+T1	MajorClaim 311 365	these developments in agricultures should be preserved
+T2	Premise 431 614	innovations in agriculture such as mechanized farming and the creations of genetic engineering foods may be the only way to feed the vast number of people in every corner of the world
+T3	Premise 616 717	Imagine the tragedies that would ensue if people lived in famine and started to eat people to survive
+T4	Claim 730 888	governments around the world have the obligation to fund in technological developments in farming in order to make an enough production of food for its people
+A1	Stance T4 For
+T5	Premise 890 1015	Another reason for applied technology in agriculture is the low-priced foods resulted from the widely used of factory farming
+T6	Premise 1017 1153	Thanks to the lower expenditure in food consuming, low income people now have sufficient money to cover up costs in health and education
+T7	Premise 1231 1314	the proliferation of GE food and factory farming are detrimental to people's health
+T8	Premise 1342 1472	food which is genetically modified interrupts the natural balance of the ecosystem and would return to haunt us in unexpected ways
+T9	Premise 1499 1572	technological developments in agriculture is beneficial in the short term
+T10	Claim 1574 1613	its long term negatives are significant
+A2	Stance T10 Against
+T11	Premise 1638 1722	the wide spread use of modern technology in agriculture may be problematic in itself
+T12	Claim 1733 1841	given the seriousness of food insufficiency through out the world, I believe this would be the ultimate goal
+A3	Stance T12 For
+R1	supports Arg1:T3 Arg2:T4	
+R2	supports Arg1:T2 Arg2:T4	
+R3	supports Arg1:T5 Arg2:T4	
+R4	supports Arg1:T6 Arg2:T4	
+R5	supports Arg1:T4 Arg2:T1	
+R6	attacks Arg1:T9 Arg2:T10	
+R7	supports Arg1:T7 Arg2:T10	
+R8	supports Arg1:T8 Arg2:T10	
+R9	attacks Arg1:T10 Arg2:T1	
+R10	attacks Arg1:T11 Arg2:T12	
+R11	supports Arg1:T12 Arg2:T1	

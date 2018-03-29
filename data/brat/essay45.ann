@@ -1,0 +1,36 @@
+T1	MajorClaim 189 291	it is the responsibility of these disadvantaged citizens, rather than the government, to help them out
+T2	Claim 293 362	Government money should be spent on publicly benefitial programs only
+A1	Stance T2 For
+T3	Premise 364 409	Tax revenue is collected from those who works
+T4	Premise 411 509	Spending them on helping those not make contribution to society would not sound fair to tax payers
+T5	Premise 520 625	there are other pressing demands on the government expenditure, such as health care service and education
+T6	Premise 630 678	addressing unemployment should have low priority
+T7	Premise 706 790	to survive in this competitive world, one has to work hard and equip themselves well
+T8	Claim 792 907	If they could get free financial help from the government, they might end up with out any motivation to work at all
+A2	Stance T8 For
+T9	Claim 1144 1248	the government ought to set up free vocational trainings or to provide interest-free bank loans for them
+A3	Stance T9 For
+T10	Premise 920 989	this does not mean we should leave alone those who do need assistance
+T11	Premise 991 1128	They are already in reverse circumstances and it would be rather difficult for them to overcome the difficulties without external support
+T12	Premise 1258 1302	they can have the chance to get back to work
+T13	Premise 1315 1402	it is benefitial to the society as a whole when the jobless can make contribution again
+T14	Premise 1454 1517	the government should provide help for the disadvantaged people
+T15	Claim 1519 1568	direct financial support may not be a wise option
+A4	Stance T15 For
+T16	Claim 1573 1633	people should rely on themselves to get out of the adversity
+A5	Stance T16 For
+R1	supports Arg1:T5 Arg2:T6	
+R2	supports Arg1:T6 Arg2:T2	
+R3	supports Arg1:T3 Arg2:T2	
+R4	supports Arg1:T4 Arg2:T2	
+R5	supports Arg1:T2 Arg2:T1	
+R6	supports Arg1:T7 Arg2:T8	
+R7	supports Arg1:T8 Arg2:T1	
+R8	supports Arg1:T10 Arg2:T9	
+R9	supports Arg1:T11 Arg2:T9	
+R10	supports Arg1:T12 Arg2:T9	
+R11	supports Arg1:T13 Arg2:T9	
+R12	supports Arg1:T9 Arg2:T1	
+R13	attacks Arg1:T14 Arg2:T15	
+R14	supports Arg1:T15 Arg2:T1	
+R15	supports Arg1:T16 Arg2:T1	

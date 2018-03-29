@@ -1,0 +1,25 @@
+T1	Premise 446 529	languages, especially oral language, are a quite major part of culture of a country
+T2	Premise 531 604	It helps people distinguish between nations and even regions in a country
+T3	Premise 606 713	The clearance of minority of language means that a national traditional, customs and habitants do not exist
+T4	Claim 715 857	Governments should spend money on keeping and preserving these things for the rich diversity of cultures which make our world more interesting
+A1	Stance T4 For
+T5	Premise 873 983	it is a pride of the country with a rage of culture which is easy to educate people to love their country more
+T6	Claim 1004 1059	there are some drawbacks from saving minority languages
+A2	Stance T6 Against
+T7	Premise 1168 1274	there are a few people, particularly the youngsters, do not pay attention on collecting and studying those
+T8	Premise 1276 1336	These kinds of languages are usually difficult and unpopular
+T9	Premise 1351 1463	the preservations need a long time to gather, restore all information as well as train in the educational centre
+T10	Premise 1465 1545	If they do not try their best, their protection can be halted and waste of money
+T11	MajorClaim 1582 1649	all languages should be preserved and developed as much as possible
+T12	Claim 1651 1770	All people should give a hand to do this better and governments play a vital role on encouraging and distributing those
+A3	Stance T12 For
+R1	supports Arg1:T1 Arg2:T4	
+R2	supports Arg1:T2 Arg2:T4	
+R3	supports Arg1:T3 Arg2:T4	
+R4	supports Arg1:T5 Arg2:T4	
+R5	supports Arg1:T7 Arg2:T6	
+R6	supports Arg1:T8 Arg2:T6	
+R7	supports Arg1:T9 Arg2:T6	
+R8	supports Arg1:T10 Arg2:T6	
+R9	attacks Arg1:T6 Arg2:T11	
+R10	supports Arg1:T4 Arg2:T11	

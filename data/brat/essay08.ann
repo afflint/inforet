@@ -1,0 +1,39 @@
+T1	MajorClaim 1848 1905	it can contribute greatly to the development of the world
+T2	Claim 296 419	we need to place less emphasis on technological solutions and more on other values, such as economy, politics and education
+A1	Stance T2 Against
+T3	Claim 178 261	Technology, however, is not the best solution to all the world's intricate problems
+A2	Stance T3 Against
+T4	Claim 556 602	technology plays an integral part in our lives
+A3	Stance T4 For
+T5	Premise 604 708	With the invention of computers and the Internet, we now can get easy access to all kinds of information
+T6	Premise 723 800	hi-tech devices also have a very positive impact on many aspects of our lives
+T7	Premise 802 898	They help us to work and study more efficiently, thus leading to an improvement in our abilities
+T8	Premise 900 968	Medical advances can improve our health and cure many fatal diseases
+T9	Premise 979 1127	modern technology enables us to predict natural disasters much faster and more accurately, so we can reduce the number of deaths and property damage
+T10	Claim 1138 1202	there are some serious problems springing from modern technology
+A4	Stance T10 Against
+T11	Premise 1211 1280	deadly and powerful weapons can be a huge threat to the world's peace
+T12	Premise 1290 1356	a lot of people spend too much time using hi-tech devices nowadays
+T13	Premise 1358 1434	They abuse them so severely that they feel they can hardly live without them
+T14	Premise 1436 1486	This can have a detrimental effect on their health
+T15	Premise 1494 1601	they are likely to develop many dangerous diseases, including obesity, heart attack and high blood-pressure
+T16	Premise 1663 1703	technology is very crucial for our lives
+T17	Claim 1918 2053	scientists should not place less emphasis on technological solutions, but try to pay more attention to develop new technologies instead
+A5	Stance T17 For
+T18	Premise 1788 1837	its advantages clearly outweigh its disadvantages
+R1	attacks Arg1:T2 Arg2:T1	
+R2	attacks Arg1:T3 Arg2:T1	
+R3	supports Arg1:T5 Arg2:T4	
+R4	supports Arg1:T6 Arg2:T4	
+R5	supports Arg1:T8 Arg2:T4	
+R6	supports Arg1:T9 Arg2:T4	
+R7	supports Arg1:T7 Arg2:T6	
+R8	supports Arg1:T15 Arg2:T14	
+R9	supports Arg1:T11 Arg2:T10	
+R10	supports Arg1:T12 Arg2:T10	
+R11	supports Arg1:T14 Arg2:T10	
+R12	supports Arg1:T13 Arg2:T10	
+R13	supports Arg1:T16 Arg2:T1	
+R14	supports Arg1:T18 Arg2:T1	
+R15	supports Arg1:T4 Arg2:T1	
+R16	attacks Arg1:T10 Arg2:T1	

@@ -1,0 +1,36 @@
+T1	Claim 249 303	the disadvantages are far outweighed by the advantages
+A1	Stance T1 For
+T2	Premise 425 500	students can gain their practical experience by getting involved extra jobs
+T3	Premise 502 607	Part-time jobs furnish them with precious chance to practice what they are learning at their universities
+T4	Premise 622 736	that seems to be more essential the present shortage of sufficiently practical conditions supplied in universities
+T5	Premise 751 844	students who get part time jobs have not only academic knowledge but also hands-on experience
+T6	Claim 856 993	having experienced in working environment during student time offers a distinct advantage when they apply for jobs after their graduation
+A2	Stance T6 For
+T7	Claim 1005 1098	students who take on a part time job are often more confident and independent than other ones
+A3	Stance T7 For
+T8	Premise 1100 1290	By constant communicating with other colleagues daily in a company environment where their new ideas can be raised without hesitation, then students' confidence could be significantly gained
+T9	Premise 1298 1495	working conditions require students the independency in thinking, working, and solving problems, which is greatly helpful when the characteristic is applied to tackle subjects in their universities
+T10	Premise 1505 1570	doing extra jobs helps student with money for their accommodation
+T11	Premise 1580 1683	high studying tuition, added with raising accommodation expenses are becoming a huge burden to students
+T12	Claim 1685 1799	With the money they earn from extra jobs, which normally is not much, those difficulties could be partially solved
+A4	Stance T12 For
+T13	Claim 1811 1940	that helps students from being reliant on their families as well as is a well-prepared condition for their independent later life
+A5	Stance T13 For
+T14	MajorClaim 1977 2064	having a part time job during your student time will offer students many clear benefits
+T15	Premise 2067 2211	By taking on an extra job, students can partly alleviate some their problematic matters such as working experience, confidence and accommodation
+T16	Claim 2229 2296	the tendency of getting extra jobs will increase more in the future
+A6	Stance T16 For
+R1	supports Arg1:T2 Arg2:T6	
+R2	supports Arg1:T3 Arg2:T6	
+R3	supports Arg1:T4 Arg2:T6	
+R4	supports Arg1:T5 Arg2:T6	
+R5	supports Arg1:T8 Arg2:T7	
+R6	supports Arg1:T9 Arg2:T7	
+R7	supports Arg1:T10 Arg2:T12	
+R8	supports Arg1:T11 Arg2:T12	
+R9	supports Arg1:T15 Arg2:T14	
+R10	supports Arg1:T13 Arg2:T14	
+R11	supports Arg1:T12 Arg2:T14	
+R12	supports Arg1:T7 Arg2:T14	
+R13	supports Arg1:T6 Arg2:T14	
+R14	supports Arg1:T1 Arg2:T14	

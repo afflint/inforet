@@ -1,0 +1,38 @@
+T1	Premise 286 374	music has a great power which can positively influence on human being and its psychology
+T2	Claim 387 455	many university authorities provide music lessons for their students
+A1	Stance T2 For
+T3	Premise 464 507	they live and study in a harmony with music
+T4	Premise 535 695	students, who spend a great deal of their time studying different academic subjects should have an opportunity to cope with the stress gained during school time
+T5	Claim 711 757	music can be a useful and interesting solution
+A2	Stance T5 For
+T6	Premise 769 934	if musical activity involves many participants, there will be co-operation and developed team work in the group, which is, of course, beneficial in their future life
+T7	Premise 945 1024	students with a quite poor academic background can show themselves in the music
+T8	Premise 1040 1089	the calm atmosphere in the class might be created
+T9	Premise 1121 1179	music can have many mentally enhancing effects on students
+T10	Premise 1181 1299	In our hectic life, however, demand is not for musically orientated students, but for academically developed employees
+T11	Premise 1343 1402	music is the art which requires special attitude towards it
+T12	Premise 1426 1515	students can not obtain supposed impacts, unless they get interested in it more seriously
+T13	Claim 1528 1584	music and other entertaining subjects should be optional
+A3	Stance T13 For
+T14	Premise 1596 1655	time is the most valuable thing in life with increased pace
+T15	Premise 1669 1807	students are to develop their professional skills by learning occupation-related subjects, rather than playing on guitar or singing a song
+T16	Premise 1837 1925	in order to be a competitive worker, students must know their field in an advanced level
+T17	Premise 1946 1997	music can help an individual to shape its character
+T18	MajorClaim 1999 2093	An integration of music into learning process bound to be successful when it is not compulsory
+R1	supports Arg1:T1 Arg2:T2	
+R2	supports Arg1:T3 Arg2:T2	
+R3	supports Arg1:T4 Arg2:T5	
+R4	supports Arg1:T6 Arg2:T5	
+R5	supports Arg1:T7 Arg2:T8	
+R6	supports Arg1:T8 Arg2:T5	
+R7	attacks Arg1:T9 Arg2:T13	
+R8	supports Arg1:T10 Arg2:T13	
+R9	supports Arg1:T11 Arg2:T13	
+R10	supports Arg1:T12 Arg2:T13	
+R11	supports Arg1:T14 Arg2:T13	
+R12	supports Arg1:T15 Arg2:T13	
+R13	supports Arg1:T16 Arg2:T18	
+R14	supports Arg1:T17 Arg2:T18	
+R15	supports Arg1:T2 Arg2:T18	
+R16	supports Arg1:T5 Arg2:T18	
+R17	supports Arg1:T13 Arg2:T18	

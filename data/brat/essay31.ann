@@ -1,0 +1,49 @@
+T1	MajorClaim 358 464	alternative means of transportation and international laws in controlling automobiles should be introduced
+T2	Premise 561 638	an increase in the number of automobiles brings about environmental pollution
+T3	Premise 646 721	automobile exhaust and carbon dioxides emission have bad impacts on the air
+T4	Premise 723 750	the air gets to be polluted
+T5	Premise 755 809	it causes respiratory disease of the local inhabitants
+T6	Claim 822 933	it is crucial to alter automobiles to the other means of transportation and to legislate to control automobiles
+A1	Stance T6 For
+T7	Premise 945 1020	an increase in the number of automobiles causes terrible traffic congestion
+T8	Premise 1022 1098	Once we get into the traffic jam, it forces us to waste our time for a while
+T9	Premise 1115 1151	traffic congestion irritates drivers
+T10	Premise 1169 1213	it leads to an increase of traffic accidents
+T11	Claim 1221 1351	the methods to reduce the number of automobiles and to control car ownership and use should be immediately planned and implemented
+A2	Stance T11 For
+T12	Claim 1387 1507	alternative forms of transportation and international laws to control automobiles ownership and use can work effectively
+A3	Stance T12 For
+T13	Premise 1536 1623	alternative forms which emit less carbon dioxides and gasses than automobiles are ideal
+T14	Premise 1638 1709	rental bicycle system has been introduced in several European countries
+T15	Premise 1711 1860	This system is that at the corner of each district, the rental bicycles are placed and the people can ride it to the other districts with a small fee
+T16	Premise 1868 1925	bicycle expels neither carbon dioxides nor harmful gasses
+T17	Premise 1927 1985	it is a better form to protect environment than automobile
+T18	Claim 2012 2072	the introduction of international laws can be also effective
+A4	Stance T18 For
+T19	Premise 2088 2199	there are some regulations to limit the use of automobiles by time and to allow the people possess one car only
+T20	Claim 2207 2299	these attempts to reduce automobiles can ease traffic congestion and environmental pollution
+A5	Stance T20 For
+T21	Premise 2325 2372	some people claim the convenience of automobile
+T22	Claim 2393 2565	alternative forms of transport and international laws on controlling automobiles are necessary due to the environmental protection and the alleviation of traffic congestion
+A6	Stance T22 For
+R1	supports Arg1:T2 Arg2:T6	
+R2	supports Arg1:T3 Arg2:T4	
+R3	supports Arg1:T5 Arg2:T4	
+R4	supports Arg1:T4 Arg2:T6	
+R5	supports Arg1:T7 Arg2:T11	
+R6	supports Arg1:T8 Arg2:T11	
+R7	supports Arg1:T9 Arg2:T10	
+R8	supports Arg1:T10 Arg2:T11	
+R9	supports Arg1:T6 Arg2:T1	
+R10	supports Arg1:T11 Arg2:T1	
+R11	supports Arg1:T13 Arg2:T12	
+R12	supports Arg1:T14 Arg2:T12	
+R13	supports Arg1:T15 Arg2:T12	
+R14	supports Arg1:T16 Arg2:T17	
+R15	supports Arg1:T17 Arg2:T12	
+R16	supports Arg1:T19 Arg2:T18	
+R17	supports Arg1:T12 Arg2:T1	
+R18	supports Arg1:T18 Arg2:T1	
+R19	supports Arg1:T20 Arg2:T1	
+R20	attacks Arg1:T21 Arg2:T22	
+R21	supports Arg1:T22 Arg2:T1	

@@ -1,0 +1,35 @@
+T1	MajorClaim 391 441	they are able to sustain their cultural identities
+T2	Claim 260 357	they should follow the local customs in order to integrate into their adopted countries’ cultures
+A1	Stance T2 Against
+T3	Claim 1089 1156	sustaining the cultural values of immigrants is paramount essential
+A2	Stance T3 For
+T4	Premise 500 624	maintaining one’s cultural identity is a key important rule to help individuals emerge in the new multicultural environments
+T5	Premise 626 839	Take Australia for example, immigrants from varieties of nations have a day called multicultural day where people from each country prepare their food and traditional activities for displaying in the public venues
+T6	Premise 841 946	Many Australians come this day to enjoy the shows, learn about the cultures and admire the diverse values
+T7	Premise 948 1057	These feedbacks, in turn, help raise one’s pride of their cultures and help people understand each other more
+T8	Claim 1168 1204	it is crucial to keep one’s identity
+A3	Stance T8 For
+T9	Premise 1209 1307	they need a connection back to their country as well as teach their children their value of origin
+T10	Premise 1323 1412	children immigrated to a new country will face social troubles in school with new friends
+T11	Premise 1414 1571	In this new environment, parent should find friends coming from their same country so that they can socialize in a very familiar manner as feeling being home
+T12	Premise 1573 1685	Fail to create this familiarity makes them felt isolated, in the extreme can lead to social disorder like autism
+T13	Claim 1711 1795	keeping the cultural traditions in the destination countries is tremendous important
+A4	Stance T13 For
+T14	Claim 1936 2077	sustaining the traditions will make the immigrated people keep their cultural identity and give them confident among the many culture society
+A5	Stance T14 For
+R1	attacks Arg1:T2 Arg2:T1	
+R2	supports Arg1:T4 Arg2:T3	
+R3	supports Arg1:T5 Arg2:T3	
+R4	supports Arg1:T6 Arg2:T3	
+R5	supports Arg1:T7 Arg2:T3	
+R6	supports Arg1:T3 Arg2:T1	
+R7	supports Arg1:T9 Arg2:T8	
+R8	supports Arg1:T10 Arg2:T8	
+R9	supports Arg1:T12 Arg2:T13	
+R10	supports Arg1:T11 Arg2:T8	
+R11	supports Arg1:T9 Arg2:T13	
+R12	supports Arg1:T11 Arg2:T13	
+R13	supports Arg1:T12 Arg2:T8	
+R14	supports Arg1:T8 Arg2:T1	
+R15	supports Arg1:T13 Arg2:T1	
+R16	supports Arg1:T14 Arg2:T1	

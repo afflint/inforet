@@ -1,0 +1,43 @@
+T1	Premise 168 270	the world are more closer, and every single countries affects each other more than before in many ways
+T2	Claim 284 404	governmental and non-governmental organizations have been focus on being harmony and contribute to aid to poor countries
+A1	Stance T2 For
+T3	Premise 422 507	just giving aid to impoverished countries could be manipulated by big power countries
+T4	Premise 522 640	a great amount of materials and money have poor countries being corrupted and politically dependent on other countries
+T5	Claim 664 737	aiding poor countries has positive effects, overweighing its side-effects
+A2	Stance T5 For
+T6	Premise 777 884	poor counties suffer from shortage of basic materials and facilities to start businesses and make it richer
+T7	Premise 908 1069	it is fundamental to support basic industry related factors such as light, electricity, load, highways, natural resources, technology and buildings for companies
+T8	Claim 1071 1174	Aiding help poor countries in this situation solve their economical problems and run their own business
+A3	Stance T8 For
+T9	Premise 1187 1279	republic of Korea used to be the poorest country even compared to others in Africa in 1960's
+T10	Premise 1281 1390	Now that it has became strong economy country aiding poor countries after 10 years of aid from other counties
+T11	Claim 1402 1465	aiding campaign gives a chance to considerate about poor people
+A4	Stance T11 For
+T12	Premise 1467 1600	If people in rich countries ponder poor people suffering from poverty and diseases, they would never take their abundance for granted
+T13	Premise 1602 1732	It not only raises the notice the meaning of harmony and love, but also be a good chance to learn humane doctrine of globalization
+T14	Claim 1741 1787	the campaigns might include practical benefits
+A5	Stance T14 For
+T15	Premise 1810 1899	the economies of several countries are in a big network and must influence on each others
+T16	Premise 1901 2087	When America mortgage loan system went bad, several economies of European and Asian countries fluctuated, even any countries had to be gotten international supports to block its bankrupt
+T17	Premise 2104 2296	there are abovementioned three key points of positive effects of aid; supporting poor countries to make its economy strong and building humane concepts to people, keeping strong global economy
+T18	MajorClaim 2322 2426	being a global neighbor by aiding poor countries would be continues by many organizations and volunteers
+T19	Claim 2432 2477	it will make the earth a better place to live
+A6	Stance T19 For
+R1	supports Arg1:T1 Arg2:T2	
+R2	attacks Arg1:T3 Arg2:T2	
+R3	attacks Arg1:T4 Arg2:T2	
+R4	supports Arg1:T6 Arg2:T8	
+R5	supports Arg1:T7 Arg2:T8	
+R6	supports Arg1:T9 Arg2:T8	
+R7	supports Arg1:T10 Arg2:T8	
+R8	supports Arg1:T13 Arg2:T11	
+R9	supports Arg1:T12 Arg2:T11	
+R10	supports Arg1:T15 Arg2:T14	
+R11	supports Arg1:T16 Arg2:T14	
+R12	supports Arg1:T17 Arg2:T18	
+R13	supports Arg1:T19 Arg2:T18	
+R14	supports Arg1:T14 Arg2:T18	
+R15	supports Arg1:T11 Arg2:T18	
+R16	supports Arg1:T8 Arg2:T18	
+R17	supports Arg1:T5 Arg2:T18	
+R18	supports Arg1:T2 Arg2:T18	

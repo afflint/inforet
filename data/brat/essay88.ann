@@ -1,0 +1,47 @@
+T1	MajorClaim 159 198	I am in favor of living in a small town
+T3	Premise 200 258	The atmosphere in suburban area brings me peaceful feeling
+T4	Premise 270 300	people there are very friendly
+T5	Premise 311 354	the environmental is greener than in cities
+T6	Claim 724 841	These features make a suburban town the paradise for people who want to escape from suffocating lives in major cities
+A1	Stance T6 For
+T7	Premise 429 462	peaceful atmosphere is attractive
+T8	Premise 488 582	people in large cities face annoying noise and dirty air emitted from vehicles almost everyday
+T9	Premise 584 638	This is likely to adversely affect their mental health
+T10	Premise 651 722	lives small towns are great deal more quiet and the air is always fresh
+T11	Claim 853 894	people in small towns are always friendly
+A2	Stance T11 For
+T13	Premise 988 1090	It is contrary in small town life, where people are ready to help whenever their neighbors are in need
+T14	Premise 1092 1214	The relationship among them can be so close that they usually attend the birthday party of one of their neighboring people
+T15	Premise 1216 1318	The affection from people around brings me cozy feeling on my birthday when I live away from my family
+T16	Claim 1329 1378	the green environment in small towns interests me
+A3	Stance T16 For
+T17	Premise 1400 1454	there are more trees and lakes in towns than in cities
+T18	Premise 1456 1544	It is wonderful that I get up early in the morning and take a walk in such a green place
+T19	Premise 1546 1627	The urban environment, however, is so artificial with only buildings and vehicles
+T20	Premise 1629 1674	I can not adapt myself to such an environment
+T21	Premise 1712 1744	city life has its own advantages
+T12	Premise 914 986	many people in urban areas even do not know the names of their neighbors
+T22	Premise 1759 1844	peaceful atmosphere, friendliness of people, and green landscape strongly convince me
+T23	Claim 1850 1898	a small town is the best place for me to live in
+A4	Stance T23 For
+R1	supports Arg1:T3 Arg2:T1	
+R2	supports Arg1:T4 Arg2:T1	
+R3	supports Arg1:T5 Arg2:T1	
+R4	supports Arg1:T7 Arg2:T6	
+R5	supports Arg1:T8 Arg2:T6	
+R6	supports Arg1:T9 Arg2:T6	
+R7	supports Arg1:T10 Arg2:T6	
+R8	supports Arg1:T12 Arg2:T11	
+R9	supports Arg1:T13 Arg2:T11	
+R10	supports Arg1:T14 Arg2:T11	
+R11	supports Arg1:T15 Arg2:T11	
+R12	supports Arg1:T17 Arg2:T16	
+R13	supports Arg1:T18 Arg2:T16	
+R14	supports Arg1:T19 Arg2:T16	
+R15	supports Arg1:T20 Arg2:T16	
+R16	attacks Arg1:T21 Arg2:T23	
+R17	supports Arg1:T22 Arg2:T23	
+R18	supports Arg1:T6 Arg2:T1	
+R19	supports Arg1:T11 Arg2:T1	
+R20	supports Arg1:T16 Arg2:T1	
+R21	supports Arg1:T23 Arg2:T1	

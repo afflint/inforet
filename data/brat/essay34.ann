@@ -1,0 +1,36 @@
+T1	MajorClaim 337 381	student have to be forced to study at school
+T2	Claim 837 914	they have more opprotunities to find a job and to be successful in the future
+A1	Stance T2 For
+T3	Premise 941 1027	employer always prefer to hire an employee of high degree who have professional skills
+T4	Premise 397 508	schools offer to students a good environment with experienced professors and high quality programs for studying
+T5	Premise 510 663	It creates the best conditions for students education and can force them to focus on their school work instead of wasting their time to do useless things
+T6	Premise 680 734	schools provide lots of academic knowledge to students
+T7	Premise 736 824	Students may learn professional skills, expand their understandings and gain experiences
+T8	Claim 1094 1151	children should interrupt their school work and get a job
+A2	Stance T8 Against
+T9	Premise 1161 1195	children can learn a lot at school
+T10	Premise 1197 1271	there are many subjects that will be of little value to them in the future
+T11	Premise 1286 1339	children can learn social skills when they have a job
+T12	Premise 1341 1405	They can get more experiences that can not be obtained at school
+T13	Premise 1407 1515	Working helps children be more independent and teach them to esteem and manage the money that they've earned
+T14	Claim 1541 1572	students should study at school
+A3	Stance T14 For
+T15	Premise 1586 1643	there are some advantages of leaving school to find a job
+T16	Premise 1645 1711	studying at school is always the best choice for children's future
+T17	Premise 1713 1820	There are many ways that can train children to learn independent and social skills instead of getting a job
+R1	supports Arg1:T4 Arg2:T2	
+R2	supports Arg1:T5 Arg2:T2	
+R3	supports Arg1:T6 Arg2:T2	
+R4	supports Arg1:T7 Arg2:T2	
+R5	supports Arg1:T3 Arg2:T2	
+R6	supports Arg1:T2 Arg2:T1	
+R7	attacks Arg1:T9 Arg2:T8	
+R8	supports Arg1:T10 Arg2:T8	
+R9	supports Arg1:T11 Arg2:T8	
+R10	supports Arg1:T12 Arg2:T8	
+R11	supports Arg1:T13 Arg2:T8	
+R12	attacks Arg1:T8 Arg2:T1	
+R13	attacks Arg1:T15 Arg2:T14	
+R14	attacks Arg1:T16 Arg2:T15	
+R15	supports Arg1:T17 Arg2:T14	
+R16	supports Arg1:T14 Arg2:T1	

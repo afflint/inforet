@@ -1,0 +1,37 @@
+T1	Premise 182 235	wild life would be taken good care from professionals
+T2	Premise 264 330	the animals are deprived of freedom as a result of staying in zoos
+T3	MajorClaim 353 408	animals should live in natural habitats instead of zoos
+T4	Premise 425 504	it is the right of wild species to live in a environment away from human beings
+T5	Premise 526 641	human beings are responsible for the heavy pollution and severe damage to the natural habitats of many wild animals
+T6	Claim 643 731	it is our responsibility to create a natural and safe environment for animals to live in
+A1	Stance T6 For
+T7	Premise 745 849	the limited space and the artificial trees and lakes can not fully compensate the animals for their loss
+T8	Premise 861 1017	if rural animals are captured in the zoo for a long period, it would have negative influences on both the physical and psychological status of the creatures
+T9	Premise 1032 1091	the wild species would suffer from isolation and depression
+T10	Claim 1107 1191	zoos are more likely to be a killer rather than a protector in protecting wild lives
+A2	Stance T10 For
+T11	Premise 1207 1350	supporters would argue that zoos, which are equipped with modern facilities and professionals, would provide better care for the animals inside
+T12	Premise 1380 1455	the endangered species preserved in zoos would never die of illegal hunting
+T13	Claim 1611 1712	the growing number of natural habitat would be the ultimate solution of saving wild animals worldwide
+A3	Stance T13 For
+T14	Premise 1487 1595	the strict laws prohibiting poaching would provide a shelter for various kinds of animals in natural habitat
+T15	Claim 1757 1798	wild animals should be set free from zoos
+A4	Stance T15 For
+T16	Premise 1816 1852	they have the right to enjoy freedom
+T17	Premise 1857 1903	they also escape from isolation and depression
+R1	attacks Arg1:T1 Arg2:T3	
+R2	supports Arg1:T2 Arg2:T3	
+R3	supports Arg1:T4 Arg2:T6	
+R4	supports Arg1:T5 Arg2:T6	
+R5	supports Arg1:T7 Arg2:T10	
+R6	supports Arg1:T8 Arg2:T10	
+R7	supports Arg1:T9 Arg2:T10	
+R8	attacks Arg1:T11 Arg2:T13	
+R9	attacks Arg1:T12 Arg2:T13	
+R10	supports Arg1:T14 Arg2:T13	
+R11	supports Arg1:T6 Arg2:T3	
+R12	supports Arg1:T10 Arg2:T3	
+R13	supports Arg1:T13 Arg2:T3	
+R14	supports Arg1:T16 Arg2:T15	
+R15	supports Arg1:T17 Arg2:T15	
+R16	supports Arg1:T15 Arg2:T3	

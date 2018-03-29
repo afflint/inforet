@@ -1,0 +1,19 @@
+T1	MajorClaim 1601 1659	financial aid is not the only way to assist poor countries
+T2	Claim 982 1124	the critical method to improve the condition of poor countries is to help them build up a complete educational system instead of financial aid
+A1	Stance T2 For
+T3	Premise 495 540	education is an essential part in development
+T4	Premise 556 738	most developing countries are lack of educational resources, such as experienced teachers, evaluation systems and teaching facilities, which is usually neglected by local authorities
+T5	Premise 778 974	if the developed countries are unwilling to share their successful experience in education, the developing countries will remain undeveloped, even though they gain a great deal of economic support
+T6	Premise 1216 1361	some powerful countries provide financial support in order to acquire the right to exploit the local resources and target the local labour market
+T7	Premise 1371 1476	they rarely provide local residents with any technological aid and even cause contamination in some areas
+T8	Claim 1489 1584	developing countries should not totally depend on the financial support from powerful countries
+A2	Stance T8 For
+T9	Premise 1689 1842	developing education and improving national technology and science level are the path they have to undergo if they really want to alter current situation
+R1	supports Arg1:T3 Arg2:T2	
+R2	supports Arg1:T4 Arg2:T5	
+R3	supports Arg1:T5 Arg2:T2	
+R4	supports Arg1:T6 Arg2:T8	
+R5	supports Arg1:T7 Arg2:T8	
+R6	supports Arg1:T9 Arg2:T1	
+R7	supports Arg1:T8 Arg2:T1	
+R8	supports Arg1:T2 Arg2:T1	

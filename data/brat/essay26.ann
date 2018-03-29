@@ -1,0 +1,35 @@
+T1	Claim 25 96	more and more people begin to select prepared food as their daily meals
+A1	Stance T1 Against
+T2	Premise 104 183	it can effectively save time which is considered as money in our modern society
+T3	Premise 212 381	cooked food can bring about some negative influence result from utilizing the artificial ingredients, ignoring the nutrition of food and modifying people's eating habits
+T4	Claim 426 450	this is not a good thing
+A2	Stance T4 For
+T5	Premise 499 674	to make their food easier to prepare and taste delicious, almost every producer adds a wide range of artificial ingredients in to the food that is now purchased by most people
+T6	Premise 676 734	Some ingredients being added have caused dire consequences
+T7	Premise 750 901	there are usually some articles in newspapers and magazines which report the relationship between certain chemical components in some food and diseases
+T8	Claim 909 975	easy-to-cook foods sometimes could be dangerous for human's health
+A3	Stance T8 For
+T9	Claim 977 1039	Not cooking fresh food will also lead to the lack of nutrition
+A4	Stance T9 For
+T10	Premise 1146 1298	some research has apparently demonstrated that prepared foods are unable to support enough nutrients we need, especially for children who are growing up
+T11	Claim 1352 1415	The more cooked food we chosen, the more cooking skills we lose
+A5	Stance T11 For
+T12	Premise 1603 1725	this has contributed to a modification of cooking habits, which may cause the loss of our custom and culture about cooking
+T13	Premise 1417 1564	At the increasing living pace, the majority of people tend to choose microwave as their unique cooker that help them prepare a dish in five minutes
+T14	MajorClaim 1742 1880	although the invention of prepared foods definitely satisfies the demand of some people who are busy in their work, it is not a good thing
+T15	Premise 1882 1912	Cooking is not a waste of time
+T16	Premise 1926 1966	it is crucial for our health and culture
+R1	supports Arg1:T2 Arg2:T1	
+R2	supports Arg1:T3 Arg2:T4	
+R3	supports Arg1:T7 Arg2:T8	
+R4	supports Arg1:T6 Arg2:T8	
+R5	supports Arg1:T5 Arg2:T8	
+R6	supports Arg1:T10 Arg2:T9	
+R7	supports Arg1:T13 Arg2:T11	
+R8	supports Arg1:T12 Arg2:T11	
+R9	supports Arg1:T15 Arg2:T14	
+R10	supports Arg1:T16 Arg2:T14	
+R11	supports Arg1:T11 Arg2:T14	
+R12	supports Arg1:T9 Arg2:T14	
+R13	supports Arg1:T8 Arg2:T14	
+R14	supports Arg1:T4 Arg2:T14	

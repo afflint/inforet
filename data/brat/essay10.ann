@@ -1,0 +1,82 @@
+T1	Premise 143 237	There is absolutely no legal, logical, or governing reason that same sex couples cannot be wed
+T2	Premise 242 310	it's extremely unconstitutional in every way to tell them they can't
+T3	MajorClaim 312 345	Same sex marriage should be legal
+T4	Premise 384 455	it's no one else's business if two men or two women want to get married
+T5	Premise 457 508	not allowing them to marry makes them seem inferior
+T6	Premise 514 548	it rids them of their civil rights
+T7	Claim 706 778	It's wrong to tell two people who love each other that they cannot marry
+A1	Stance T7 For
+T8	Premise 780 828	it's nobody's business who you fall in love with
+T9	Premise 1226 1401	A common married couple gets benefits on health, gets to make decisions that are best for their spouse in extreme cases, and gets to inherit their spouse's belongings in death
+T10	Premise 1073 1224	By not allowing them to marry all that America is doing is depriving same sex couples of their rights to care for each other and provide for each other
+T11	Premise 840 916	it is no one's business to tell same sex couples they should not be able wed
+T12	Premise 918 993	Same sex couples just want the benefits of being married like everyone else
+T13	Premise 998 1071	there is no proof saying that it is wrong for them to have those benefits
+T14	Claim 1404 1506	Making same sex marriage illegal also makes the people who are attracted to the same sex feel inferior
+A2	Stance T14 For
+T15	Premise 1508 1569	Nobody likes feeling inferior, or like they a below standards
+T16	Premise 1571 1690	by making sex marriage illegal you are making people who are attracted to the same sex feel and seem inferior to others
+T17	Premise 1692 1766	Homosexuality is not a conscious choice; it's something they are born with
+T18	Premise 1768 1826	Just like you didn't choose who you love, neither did they
+T19	Claim 1831 1882	it's unfair to make same sex marriage seem inferior
+A3	Stance T19 For
+T20	Premise 1888 1906	it is no different
+T21	Premise 2135 2276	it is hypocritical to deny the full rights and opportunities of citizenship which includes the access to an institution as basic as matrimony
+T22	Premise 2283 2343	You would never make a women feel inferior for being a women
+T23	Claim 2439 2508	Same sex marriage being illegal rids the couple of their civil rights
+A4	Stance T23 For
+T24	Premise 2636 2671	Homosexual couples are no different
+T25	Premise 2673 2722	They deserve to have their civil rights fulfilled
+T26	Premise 2724 2794	just like women deserve to vote, they should be allowed to get married
+T27	Premise 2864 2938	the bible states that it is unholy for couples of the same gender to marry
+T28	Premise 2963 3005	the word of the bible is comparable to law
+T29	Premise 3015 3088	we have an amendment which protects our country from that exact situation
+T30	Premise 3221 3329	Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof
+T31	Claim 3341 3438	The fact that it's in the bible should not dictate the laws against same sex couples becoming wed
+A5	Stance T31 For
+T32	Premise 3440 3610	Not allowing same sex couples to marry is like saying all people born with a certain hair color should not be allowed marry people of other hair colors, It makes no sense
+T33	Premise 3612 3703	Laws have been changed for all sexes, races' and genders for the same purpose, equal rights
+T34	Premise 3705 3814	It is hypocritical to not allow same sex marriage to occur when it appeals to a large growing group of people
+T35	Premise 2510 2634	Civil rights are something people have worked hard to maintain over the years, abolishing slavery and treating women equally
+T36	Claim 3828 3898	same sex couples are really just couples and should be treated as such
+A6	Stance T36 For
+T37	Claim 3900 4051	They should be allowed the benefits of marriage, treated equally, not like they are inferior, and same sex couples should be allowed their civil rights
+A7	Stance T37 For
+T38	Claim 4053 4096	One day in the future this will be achieved
+A8	Stance T38 For
+R1	supports Arg1:T1 Arg2:T3	
+R2	supports Arg1:T2 Arg2:T3	
+R3	supports Arg1:T4 Arg2:T3	
+R4	supports Arg1:T5 Arg2:T3	
+R5	supports Arg1:T6 Arg2:T3	
+R6	supports Arg1:T12 Arg2:T7	
+R7	supports Arg1:T11 Arg2:T7	
+R8	supports Arg1:T8 Arg2:T7	
+R9	supports Arg1:T13 Arg2:T7	
+R10	supports Arg1:T10 Arg2:T7	
+R11	supports Arg1:T9 Arg2:T7	
+R12	supports Arg1:T15 Arg2:T14	
+R13	supports Arg1:T16 Arg2:T14	
+R14	supports Arg1:T17 Arg2:T19	
+R15	supports Arg1:T18 Arg2:T19	
+R16	supports Arg1:T20 Arg2:T19	
+R17	supports Arg1:T21 Arg2:T19	
+R18	supports Arg1:T22 Arg2:T19	
+R19	supports Arg1:T35 Arg2:T23	
+R20	supports Arg1:T24 Arg2:T23	
+R21	supports Arg1:T25 Arg2:T23	
+R22	supports Arg1:T26 Arg2:T23	
+R23	attacks Arg1:T27 Arg2:T31	
+R24	attacks Arg1:T28 Arg2:T31	
+R25	supports Arg1:T29 Arg2:T31	
+R26	supports Arg1:T30 Arg2:T29	
+R27	supports Arg1:T32 Arg2:T31	
+R28	supports Arg1:T33 Arg2:T31	
+R29	supports Arg1:T34 Arg2:T31	
+R30	supports Arg1:T7 Arg2:T3	
+R31	supports Arg1:T14 Arg2:T3	
+R32	supports Arg1:T19 Arg2:T3	
+R33	supports Arg1:T23 Arg2:T3	
+R34	supports Arg1:T31 Arg2:T3	
+R35	supports Arg1:T36 Arg2:T3	
+R36	supports Arg1:T37 Arg2:T3	

@@ -1,0 +1,75 @@
+T1	Premise 98 252	Random locker checks are not done to torment and/or invade the privacy of the students, but for many other important reasons which include school security
+T2	Premise 254 279	These checks are required
+T3	Premise 288 370	malicious students bring drugs and weapons to school and store them in the lockers
+T4	MajorClaim 372 418	Random locker checks should be made obligatory
+T5	Premise 551 613	Safety is a problem in every environment and especially school
+T6	Premise 615 704	Drugs, alcohol, and firearms in lockers make a harmless place like school quite dangerous
+T7	Premise 706 825	School was known to be a secure environment for children where they could learn and have a have a fun time with friends
+T8	Premise 827 868	In the past 10 years that has all changed
+T9	Premise 870 928	The number of school shootings has increased significantly
+T10	Premise 930 1010	Last year on April 16th the most deadly school shooting in U.S. history occurred
+T11	Premise 1012 1109	In this brutal massacre at Virginia Tech, 32 students were murdered and several more were wounded
+T12	Claim 1111 1184	To combat this growing epidemic, schools carry out repeated locker checks
+A1	Stance T12 For
+T13	Claim 500 549	locker checks help increase the safety in schools
+A2	Stance T13 For
+T14	Claim 1208 1243	locker checks keep students healthy
+A3	Stance T14 For
+T15	Premise 1245 1314	Locker checks help students stay both physically and mentally healthy
+T16	Premise 1323 1391	it discourages students from bringing fire arms and especially drugs
+T17	Premise 1412 1497	drugs induce immense physical damage and when it is overdosed drugs can lead to death
+T18	Premise 1512 1553	drugs completely destroy a student's life
+T19	Claim 1555 1611	To prevent problems like this locker checks are required
+A4	Stance T19 For
+T20	Premise 1613 1681	Without the use of drugs, school security will increase dramatically
+T21	Premise 1683 1748	If the school is safe, students will no be frightened or strained
+T22	Claim 1758 1808	more students will comply with the school policies
+A5	Stance T22 For
+T23	Claim 2009 2099	To increase the effect of locker checks, they should be done with security guards and dogs
+A6	Stance T23 For
+T24	Claim 2345 2469	With the continued discouraging of bringing drugs and weapons, a completely secure school will become an accomplishable goal
+A7	Stance T24 For
+T25	Claim 2293 2343	only learning material should be brought to school
+A8	Stance T25 For
+T26	Premise 1817 1907	there are frequent locker checks and other students are getting caught and punished for it
+T27	Premise 1909 2007	The students who are yet to be caught will learn from the mistakes of other students and will stop
+T28	Premise 2101 2195	Security guards at school increase security and security dogs help find drugs with their noses
+T29	Premise 2197 2287	School is a place to learn, not a place to bring malicious substances, electronics and etc
+T30	Claim 2471 2529	Locker checks should be made mandatory and done frequently
+A9	Stance T30 For
+T31	Premise 2538 2652	they assure security in schools, makes students healthy, and will make students obey school policies in the future
+T32	Claim 2654 2772	Students should	appreciate locker checks and other measures taken by the school to protect the school and the students
+A10	Stance T32 For
+T33	Premise 2774 2844	Privacy is a small price to pay for security against drugs and weapons
+T34	Premise 2862 2935	privacy will be invaded not only at school, so students have to accept it
+R1	supports Arg1:T3 Arg2:T2	
+R2	supports Arg1:T1 Arg2:T4	
+R3	supports Arg1:T2 Arg2:T4	
+R4	supports Arg1:T5 Arg2:T13	
+R5	supports Arg1:T6 Arg2:T13	
+R6	supports Arg1:T10 Arg2:T12	
+R7	supports Arg1:T11 Arg2:T12	
+R8	supports Arg1:T7 Arg2:T12	
+R9	supports Arg1:T8 Arg2:T12	
+R10	supports Arg1:T9 Arg2:T12	
+R11	supports Arg1:T13 Arg2:T4	
+R12	supports Arg1:T12 Arg2:T4	
+R14	supports Arg1:T15 Arg2:T14	
+R15	supports Arg1:T16 Arg2:T15	
+R16	supports Arg1:T17 Arg2:T18	
+R17	supports Arg1:T18 Arg2:T19	
+R13	supports Arg1:T20 Arg2:T19	
+R18	supports Arg1:T21 Arg2:T19	
+R19	supports Arg1:T14 Arg2:T4	
+R20	supports Arg1:T19 Arg2:T4	
+R21	supports Arg1:T26 Arg2:T22	
+R22	supports Arg1:T27 Arg2:T22	
+R23	supports Arg1:T28 Arg2:T23	
+R24	supports Arg1:T29 Arg2:T25	
+R25	supports Arg1:T22 Arg2:T4	
+R26	supports Arg1:T25 Arg2:T4	
+R27	supports Arg1:T24 Arg2:T4	
+R28	supports Arg1:T31 Arg2:T30	
+R29	supports Arg1:T33 Arg2:T32	
+R30	supports Arg1:T34 Arg2:T32	
+R31	supports Arg1:T30 Arg2:T4	

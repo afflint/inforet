@@ -1,0 +1,34 @@
+T1	Premise 290 367	the impacts for those pollution and traffic issues are extremely far-reaching
+T2	Claim 369 439	it is insufficient to increase the petrol price only to solve problems
+A1	Stance T2 For
+T3	Premise 448 472	it is a promising method
+T4	Premise 775 882	governments have a macro-economic perspective to control price in various areas according to social demands
+T5	Claim 898 950	it seems not easy to increase petrol price instantly
+A2	Stance T5 For
+T6	Premise 971 1108	pollutions are not just caused by the burning of oil, chemical pollutants, extra lights, also constitute considerable amount of pollution
+T7	Premise 1123 1250	the improvements of work efficiency also attribute to the speed-up of working pace, resulting in traffic jams during rush-hours
+T8	Claim 1275 1369	several other solutions can be introduced to assist in reducing pollution and traffic problems
+A3	Stance T8 For
+T9	Premise 1382 1548	authorities should spare no efforts in improving public transportation facilities, such as constructing more bus lines, in order to reducing the usage of private cars
+T10	Premise 1563 1693	temporarily targets should be set, with regard to the limitations of pollutants in a certain period of time, for example, a season
+T11	Premise 1700 1764	with supervisory institutions built to find and address problems
+T12	Premise 1777 1844	cultivating a sense of environmental protection would also work out
+T13	Premise 1853 1892	it might not be into effect immediately
+T14	Premise 1898 1940	in the long run, it would be a wise choice
+T15	MajorClaim 1957 2041	addressing pollution and traffic issues only by increasing oil price Is not adequate
+T16	Premise 2049 2207	improving transportation facilities and building supervisory institution would be preferable, plus with the awareness of environmental protection being raised
+R1	supports Arg1:T1 Arg2:T2	
+R2	attacks Arg1:T3 Arg2:T2	
+R3	supports Arg1:T4 Arg2:T5	
+R4	supports Arg1:T6 Arg2:T5	
+R5	supports Arg1:T7 Arg2:T5	
+R6	supports Arg1:T9 Arg2:T8	
+R7	supports Arg1:T10 Arg2:T8	
+R8	supports Arg1:T11 Arg2:T8	
+R9	supports Arg1:T12 Arg2:T8	
+R10	attacks Arg1:T13 Arg2:T12	
+R11	supports Arg1:T14 Arg2:T12	
+R12	supports Arg1:T16 Arg2:T15	
+R13	supports Arg1:T2 Arg2:T15	
+R14	supports Arg1:T5 Arg2:T15	
+R15	supports Arg1:T8 Arg2:T15	

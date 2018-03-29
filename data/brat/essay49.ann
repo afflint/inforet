@@ -1,0 +1,26 @@
+T1	MajorClaim 428 550	the majority of people in the globe have benefited greatly from these powerful and effective means of modern communication
+T2	Premise 567 718	mobile phones and other tools of modern communication facilitate not only contact with friends and relatives in faraway places but also global business
+T3	Premise 720 841	With the click of a button, the vast amount of information can be transmitted from America to China in just a few seconds
+T4	Premise 882 966	the access to these tools of communication is available in every corner of the world
+T5	Premise 968 1105	With a mobile phone or a laptop, a person can talk or send messages online at a bus stop, in a corner shop or anywhere they could imagine
+T6	Claim 1132 1214	these new forms of communication do bring a great deal of convenience to humankind
+A1	Stance T6 For
+T7	Premise 1276 1331	only the more privileged are able to enjoy the benefits
+T8	Premise 1361 1472	the wide spread use of these efficient and effective ways of communication costs a considerable amount of money
+T9	Premise 1474 1642	Anyone who aims to use these innovations have to not only pay for the appliances such as a mobile phone or a computer but also cover up costs for communication services
+T10	Claim 1658 1755	people who live in poverty are less likely to be benefited from modern communication technologies
+A2	Stance T10 Against
+T11	Claim 1794 1896	modern communication technologies will benefit more people in the future as the pace of life increases
+A3	Stance T11 For
+T12	Premise 1907 1977	the have-nots cannot be ignored simply because they couldn't afford it
+R1	supports Arg1:T2 Arg2:T6	
+R2	supports Arg1:T3 Arg2:T6	
+R3	supports Arg1:T4 Arg2:T6	
+R4	supports Arg1:T5 Arg2:T6	
+R5	supports Arg1:T7 Arg2:T10	
+R6	supports Arg1:T8 Arg2:T10	
+R7	supports Arg1:T9 Arg2:T10	
+R8	attacks Arg1:T12 Arg2:T11	
+R9	supports Arg1:T6 Arg2:T1	
+R10	attacks Arg1:T10 Arg2:T1	
+R11	supports Arg1:T11 Arg2:T1	

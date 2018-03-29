@@ -1,0 +1,32 @@
+T1	Claim 78 140	competition can effectively promote the development of economy
+A1	Stance T1 Against
+T2	MajorClaim 503 550	we should attach more importance to cooperation
+T3	Premise 142 283	In order to survive in the competition, companies continue to improve their products and service, and as a result, the whole society prospers
+T4	Claim 591 714	through cooperation, children can learn about interpersonal skills which are significant in the future life of all students
+A2	Stance T4 For
+T5	Premise 716 851	What we acquired from team work is not only how to achieve the same goal with others but more importantly, how to get along with others
+T6	Premise 853 1086	During the process of cooperation, children can learn about how to listen to opinions of others, how to communicate with others, how to think comprehensively, and even how to compromise with other team members when conflicts occurred
+T7	Premise 1088 1191	All of these skills help them to get on well with other people and will benefit them for the whole life
+T8	Claim 1332 1376	competition makes the society more effective
+A3	Stance T8 Against
+T9	Premise 1212 1301	the significance of competition is that how to become more excellence to gain the victory
+T10	Premise 1387 1492	when we consider about the question that how to win the game, we always find that we need the cooperation
+T11	Premise 1549 1846	Take Olympic games which is a form of competition for instance, it is hard to imagine how an athlete could win the game without the training of his or her coach, and the help of other professional staffs such as the people who take care of his diet, and those who are in charge of the medical care
+T12	Premise 1848 1915	The winner is the athlete but the success belongs to the whole team
+T13	Claim 1927 1992	without the cooperation, there would be no victory of competition
+A4	Stance T13 For
+T14	Claim 2154 2231	a more cooperative attitudes towards life is more profitable in one's success
+A5	Stance T14 For
+R1	supports Arg1:T3 Arg2:T1	
+R2	attacks Arg1:T1 Arg2:T2	
+R3	supports Arg1:T5 Arg2:T4	
+R4	supports Arg1:T6 Arg2:T4	
+R5	supports Arg1:T7 Arg2:T4	
+R6	supports Arg1:T9 Arg2:T8	
+R7	supports Arg1:T11 Arg2:T12	
+R8	supports Arg1:T12 Arg2:T13	
+R9	supports Arg1:T10 Arg2:T13	
+R10	supports Arg1:T4 Arg2:T2	
+R11	attacks Arg1:T8 Arg2:T2	
+R12	supports Arg1:T13 Arg2:T2	
+R13	supports Arg1:T14 Arg2:T2	

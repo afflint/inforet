@@ -1,0 +1,37 @@
+T1	Claim 190 280	attending lectures in person should be allowed to take a predominant place in universities
+A1	Stance T1 Against
+T2	Premise 289 341	this way of learning is superior than online degrees
+T3	MajorClaim 364 433	online-teaching should be widely used among colleges and universities
+T4	Claim 523 613	distance-learning brings significant convenience for students in every corner of the world
+A2	Stance T4 For
+T5	Premise 633 803	students who were tired of commuting had to attend schools nearby, regardless of any differences in teaching facilities, teacher's qualifications or the school reputation
+T6	Premise 819 929	students are able to apply for online-courses provided by top-of-the-range universities and colleges worldwide
+T7	Premise 944 1033	the presence of video conferencing allows a teacher to teach a greater number of students
+T8	Claim 1049 1137	educational institutions are able to optimize costs by increasing teacher-student ratios
+A3	Stance T8 For
+T9	Premise 1139 1352	Thanks to the economical online-teaching, universities and colleges are able to offer grants for students who have outstanding academic achievements but are unable to attend schools because of financial constrains
+T10	Claim 1413 1524	attending lectures in person provides students an opportunity to communicate with teachers and other classmates
+A4	Stance T10 Against
+T11	Claim 1554 1676	traditional teaching approaches involving discussion and cooperation among students play a significant role in campus life
+A5	Stance T11 Against
+T12	Claim 1678 1769	It is the real interactions and communications in class make education much more attractive
+A6	Stance T12 Against
+T13	Claim 1814 1910	distance-learning will become increasingly important in the future as the pace of life increases
+A7	Stance T13 For
+T14	Claim 1921 1998	discussions and interactions should be held via video conferencing frequently
+A8	Stance T14 For
+T15	Premise 2007 2050	the joy of learning would not be diminished
+R1	supports Arg1:T2 Arg2:T1	
+R2	attacks Arg1:T1 Arg2:T3	
+R3	supports Arg1:T5 Arg2:T4	
+R4	supports Arg1:T6 Arg2:T4	
+R5	supports Arg1:T7 Arg2:T8	
+R6	supports Arg1:T9 Arg2:T8	
+R7	supports Arg1:T4 Arg2:T3	
+R8	supports Arg1:T8 Arg2:T3	
+R9	attacks Arg1:T10 Arg2:T3	
+R10	attacks Arg1:T11 Arg2:T3	
+R11	attacks Arg1:T12 Arg2:T3	
+R12	supports Arg1:T15 Arg2:T14	
+R13	supports Arg1:T13 Arg2:T3	
+R14	supports Arg1:T14 Arg2:T3	

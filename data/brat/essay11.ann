@@ -1,0 +1,136 @@
+T1	MajorClaim 284 341	camping is an experience that should be tried by everyone
+T2	Premise 635 778	the air within homes and other buildings can be more seriously polluted than the outdoor air in even the largest and most industrialized cities
+T3	Premise 781 841	Spending time camping is a great way to revitalize the lungs
+T4	Premise 913 971	"country air" is often used to describe clean, healthy air
+T5	Claim 1040 1108	There is no better way to receive the country air than while camping
+A1	Stance T5 For
+T6	Premise 973 1038	Breathing the country air usually makes a person feel revitalized
+T7	Claim 1110 1173	Another great part about camping is being outside under the sun
+A2	Stance T7 For
+T8	Premise 1175 1240	The sun rays help the human body with the production of vitamin D
+T9	Premise 1251 1367	other than popping a vitamin pill, the only way that a body can produce vitamin D is through the exposure to the sun
+T10	Premise 1369 1444	Feeling the warm rays of the sun hit the face is always a welcome sensation
+T11	Claim 1446 1508	Being outside in the sun is another great advantage of camping
+A3	Stance T11 For
+T12	Claim 1633 1703	Camping is a great way to have fun while keeping the overall cost down
+A4	Stance T12 For
+T13	Premise 1705 1779	A one night stay at Sands of Time RV Park costs twenty two dollars a night
+T14	Premise 1781 1825	That fee includes water, sewer, and electric
+T15	Premise 1827 1901	A stay in a condo in the same area will cost at least $645.00 for the week
+T16	Premise 1903 1957	A condo will cost the family $491 more than a campsite
+T17	Claim 1959 2076	That difference in price can make a camping trip a good possibility while keeping the overall costs down to a minimum
+A5	Stance T17 For
+T18	Claim 2078 2160	Camping gives anyone the possibility to go places that they have never been before
+A6	Stance T18 For
+T19	Premise 2162 2234	Camping can take you to Yosemite, or into the Band Lands of South Dakota
+T20	Premise 2236 2286	Camping can also take place at a nearby state park
+T21	Claim 2288 2363	No matter where the campsite is, a camper can feel miles away from the city
+A7	Stance T21 For
+T22	Premise 2475 2617	Camping gives you the ability to see these beautiful locations at first sunlight, in the middle of the day, at sunset and even under the stars
+T23	Premise 2619 2694	It can be amazing how different the same object can look throughout the day
+T24	Premise 2365 2473	There are so many places both near and far that are best experienced by spending a few days within the place
+T25	Premise 2696 2826	Campers often express how a feeling comes over their body when they reach the moment when the day to day turmoil leaves their body
+T26	Premise 2828 2874	Virtually every camper experiences this moment
+T27	Premise 2876 3008	This is specifically when they are experiencing nature and the realization is made how much simpler life is when outside with nature
+T28	Premise 3010 3081	Returning to nature often allows campers to return to their true selves
+T29	Claim 3083 3137	It is this discovery that should be experienced by all
+A8	Stance T29 For
+T30	Claim 3841 3916	Camping is a great way to bring families together and strengthen their love
+A9	Stance T30 For
+T31	Premise 3193 3312	Some people that do not like the idea of camping give the reason of having to camp with people in such a confined space
+T32	Premise 3314 3403	It this confined space that, when allowed, can create a close bond between family members
+T33	Premise 3405 3476	When families go camping, they put the jobs and sporting events on hold
+T34	Premise 3478 3596	There are usually no video games being played, no soccer practice to drive to, and no business projects to worry about
+T35	Premise 3598 3703	By putting aside all of these events, the family has an opportunity to bond and renew their relationships
+T36	Premise 3705 3775	Some of this may be foreign to some people and there can be resistance
+T37	Premise 3777 3839	When this resistance is put aside, these bonds will be renewed
+T38	Claim 3971 4027	Campers have an opportunity to try some interesting food
+A10	Stance T38 For
+T39	Claim 4590 4628	food always tastes better when camping
+A11	Stance T39 For
+T40	Premise 4029 4129	Cooking over a fire makes burgers and potatoes taste better than can be found at any fast food place
+T41	Premise 4131 4202	Campers need to think out their meals thoroughly prior to making a trip
+T42	Premise 4204 4284	These well planned meals are sometimes the best meals that campers have ever had
+T43	Premise 4286 4461	Cooking a chicken over campfire, cooking an apple pie in a dutch oven, and cooking a burger wrapped in foil on the coals of a camp fire can put the best gourmet chefs to shame
+T44	Premise 4463 4562	Perhaps it is the fresh smoke, the clean air or just the fact that a camper's senses are heightened
+T45	Claim 4630 4710	Some of the people that can be met while camping can make the entire trip better
+A12	Stance T45 For
+T46	Premise 4712 4780	Campers can come from every state, and sometimes different countries
+T47	Premise 4782 4895	Taking a simple walk around the campsite, the camper can encounter these people and hear the most amazing stories
+T48	Premise 4897 4957	Campers are friendly and enjoy the company of fellow campers
+T49	Premise 4959 5095	Kids always seem to find new "best friends" for the weekends and even adults may find themselves sharing a meal with their new neighbors
+T50	Claim 5107 5200	camping can also make campers realize the overlooked luxuries that they experience day to day
+A13	Stance T50 For
+T51	Claim 5366 5481	A small weekend away from these luxuries can make the campers realize how lucky they are in their day to day living
+A14	Stance T51 For
+T52	Premise 5202 5364	Flush toilets, warm showers, central heating and air, and even the lack of bugs accompanying the sleeping camper are some of the luxuries that are missed the most
+T53	Claim 5483 5571	Camping is one of the most basic and enjoyable activities that can be experienced by all
+A15	Stance T53 For
+T54	Premise 5573 5632	Camping has no requirements other than willing participants
+T55	Premise 5634 5729	Camping doesn't discriminate, doesn't have deadlines and has nothing but fun around each corner
+T56	Premise 5731 5873	No matter if the camping is experienced in a tent or in a luxury camper, getting outside, in the wilderness can provide a lifetime of memories
+T57	Premise 5875 5909	Camping has something for everyone
+R1	supports Arg1:T2 Arg2:T5	
+R2	supports Arg1:T3 Arg2:T5	
+R3	supports Arg1:T6 Arg2:T5	
+R4	supports Arg1:T4 Arg2:T6	
+R5	supports Arg1:T5 Arg2:T1	
+R6	supports Arg1:T8 Arg2:T7	
+R7	supports Arg1:T9 Arg2:T7	
+R8	supports Arg1:T10 Arg2:T7	
+R9	supports Arg1:T9 Arg2:T11	
+R10	supports Arg1:T8 Arg2:T11	
+R11	supports Arg1:T10 Arg2:T11	
+R12	supports Arg1:T7 Arg2:T1	
+R13	supports Arg1:T11 Arg2:T1	
+R14	supports Arg1:T13 Arg2:T12	
+R15	supports Arg1:T14 Arg2:T12	
+R16	supports Arg1:T15 Arg2:T12	
+R17	supports Arg1:T16 Arg2:T12	
+R18	supports Arg1:T13 Arg2:T17	
+R19	supports Arg1:T14 Arg2:T17	
+R20	supports Arg1:T15 Arg2:T17	
+R21	supports Arg1:T16 Arg2:T17	
+R22	supports Arg1:T12 Arg2:T1	
+R23	supports Arg1:T17 Arg2:T1	
+R24	supports Arg1:T19 Arg2:T18	
+R25	supports Arg1:T20 Arg2:T18	
+R26	supports Arg1:T24 Arg2:T21	
+R27	supports Arg1:T23 Arg2:T21	
+R28	supports Arg1:T22 Arg2:T23	
+R29	supports Arg1:T18 Arg2:T1	
+R30	supports Arg1:T21 Arg2:T1	
+R31	supports Arg1:T25 Arg2:T29	
+R32	supports Arg1:T27 Arg2:T29	
+R33	supports Arg1:T26 Arg2:T29	
+R34	supports Arg1:T28 Arg2:T29	
+R35	supports Arg1:T29 Arg2:T1	
+R36	attacks Arg1:T32 Arg2:T31	
+R37	attacks Arg1:T31 Arg2:T30	
+R38	attacks Arg1:T37 Arg2:T36	
+R39	attacks Arg1:T36 Arg2:T30	
+R40	supports Arg1:T33 Arg2:T30	
+R41	supports Arg1:T35 Arg2:T30	
+R42	supports Arg1:T34 Arg2:T30	
+R43	supports Arg1:T30 Arg2:T1	
+R44	supports Arg1:T44 Arg2:T39	
+R45	supports Arg1:T43 Arg2:T39	
+R46	supports Arg1:T40 Arg2:T38	
+R47	supports Arg1:T41 Arg2:T38	
+R48	supports Arg1:T42 Arg2:T38	
+R49	supports Arg1:T38 Arg2:T1	
+R50	supports Arg1:T39 Arg2:T1	
+R51	supports Arg1:T47 Arg2:T45	
+R52	supports Arg1:T46 Arg2:T45	
+R53	supports Arg1:T48 Arg2:T45	
+R54	supports Arg1:T49 Arg2:T45	
+R55	supports Arg1:T45 Arg2:T1	
+R56	supports Arg1:T52 Arg2:T50	
+R57	supports Arg1:T52 Arg2:T51	
+R58	supports Arg1:T50 Arg2:T1	
+R59	supports Arg1:T51 Arg2:T1	
+R60	supports Arg1:T54 Arg2:T53	
+R61	supports Arg1:T55 Arg2:T53	
+R62	supports Arg1:T56 Arg2:T53	
+R63	supports Arg1:T57 Arg2:T53	
+R64	supports Arg1:T53 Arg2:T1	

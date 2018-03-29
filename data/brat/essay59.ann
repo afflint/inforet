@@ -1,0 +1,43 @@
+T1	MajorClaim 251 315	strict laws, like capital punishment, are essential in a society
+T2	Premise 317 384	Capital punishment is given only in the " rarest of the rare" cases
+T3	Premise 386 450	Its first and foremost objective is safety of other human beings
+T4	Premise 452 581	When a criminal becomes a threat to the society, such that they can commit heinous crimes, then they are given capital punishment
+T5	Claim 589 652	capital punishment protects the society from hardcore criminals
+A1	Stance T5 For
+T6	Premise 664 742	capital punishment curbs the inspiration and prospects of other hateful crimes
+T7	Premise 744 839	When a criminal mind knows the quantum of punishment, they will fear and not commit such crimes
+T8	Claim 847 902	the rate of crime and violence is effectively decreased
+A2	Stance T8 For
+T9	Premise 917 1028	capital punishment saves a lot of government funding which is wasted in maintenance of these hardcore criminals
+T10	Claim 1030 1162	Criminals who don't have any chance of improvement or who have a past record of such crimes are, therefore, given capital punishment
+A3	Stance T10 For
+T11	Premise 1173 1216	the jury giving the verdict are also humans
+T12	Premise 1218 1268	They have the life of a person at their discretion
+T13	Premise 1270 1366	They can make mistakes which can sometimes affect an innocent, circumstantially marred criminals
+T14	Claim 1368 1450	The jury must therefore, take into account the circumstances of committing a crime
+A4	Stance T14 For
+T15	Premise 1465 1548	if an individual murders someone for self-defence, then such a crime is not heinous
+T16	Premise 1550 1665	Only deserving criminals, who commit such hateful crimes in their proper senses are subjected to capital punishment
+T17	Premise 1667 1733	Capital punishment is essential to control violence in the society
+T18	Claim 1757 1869	psychopaths, terrorists or any other criminal who lacks empathy for other human lives deserve capital punishment
+A5	Stance T18 For
+T19	Premise 1871 1954	Capital punishment helps to safeguard human rights in a strict and effective manner
+T20	Claim 1965 2105	it should be considered as the last option by the jury and all circumstances must be taken into account before pronouncing the final verdict
+A6	Stance T20 For
+R1	supports Arg1:T2 Arg2:T5	
+R2	supports Arg1:T3 Arg2:T5	
+R3	supports Arg1:T4 Arg2:T5	
+R4	supports Arg1:T6 Arg2:T8	
+R5	supports Arg1:T7 Arg2:T8	
+R6	supports Arg1:T9 Arg2:T10	
+R7	supports Arg1:T11 Arg2:T14	
+R8	supports Arg1:T12 Arg2:T14	
+R9	supports Arg1:T13 Arg2:T14	
+R10	supports Arg1:T15 Arg2:T14	
+R11	supports Arg1:T16 Arg2:T14	
+R12	supports Arg1:T17 Arg2:T18	
+R13	supports Arg1:T19 Arg2:T18	
+R14	supports Arg1:T5 Arg2:T1	
+R15	supports Arg1:T8 Arg2:T1	
+R16	supports Arg1:T10 Arg2:T1	
+R17	supports Arg1:T18 Arg2:T1	

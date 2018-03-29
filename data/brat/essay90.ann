@@ -1,0 +1,44 @@
+T1	Claim 491 523	this suggestion is not advisable
+A1	Stance T1 For
+T2	MajorClaim 2375 2488	relocating big firms, factories and their employees is not sensible to address urban traffic and housing problems
+T5	Claim 2499 2581	the government should be forward-looking, resolving the problems within the cities
+A2	Stance T5 For
+T6	Claim 644 767	moving big companies, factories and their employees to the rural area can help ease traffic congestion and housing scarcity
+A3	Stance T6 Against
+T7	Premise 769 926	As people work in the countryside, they will not have to commute in cities at peak times such as eight o'clock in the morning or six o'clock in the afternoon
+T8	Premise 942 1008	urban traffic jam can be, to some extent, relieved in this respect
+T9	Premise 1029 1186	the relocation of companies and factories in cities may leave more space to build new residential areas, thus alleviating the urban housing crisis at present
+T10	Claim 1197 1282	the proposed measure is not fundamental to resolve urban traffic and housing problems
+A4	Stance T10 For
+T11	Premise 1300 1402	some employees are reluctant to live in the rural areas only due to the relocation of their workplaces
+T12	Premise 1474 1646	Taking into the growth of their children into consideration, the married workers may believe the educational resources in cities are far superior to ones in the countryside
+T13	Premise 1669 1711	they probably opt for living in the cities
+T14	Premise 1719 1852	these employers have to commute between the cities and the countryside, which is ineffective in tackling traffic and housing problems
+T15	Premise 1869 1923	the workers have to consume more time and traffic fees
+T16	Claim 2251 2342	moving companies, factories and employees to the rural areas can ruin the environment there
+A5	Stance T16 For
+T17	Claim 1931 2007	the suggested step can bring about environmental problems in the rural areas
+A6	Stance T17 For
+T18	Premise 2009 2141	As companies and factories move to the countryside, they may deplete the local natural resources as the raw materials for production
+T19	Premise 2152 2238	the untreated pollutants the plants discharge can be damaging to the rural environment
+T3	Premise 529 630	it cannot alter the situation essentially and instead it may give rise to new concerns in rural areas
+T4	Premise 1404 1472	This can be best illustrated with the example of the married workers
+R1	supports Arg1:T3 Arg2:T1	
+R2	supports Arg1:T8 Arg2:T6	
+R3	supports Arg1:T9 Arg2:T6	
+R4	supports Arg1:T7 Arg2:T6	
+R5	supports Arg1:T11 Arg2:T10	
+R6	supports Arg1:T4 Arg2:T10	
+R7	supports Arg1:T12 Arg2:T13	
+R8	supports Arg1:T14 Arg2:T10	
+R9	supports Arg1:T15 Arg2:T10	
+R10	supports Arg1:T13 Arg2:T14	
+R11	supports Arg1:T18 Arg2:T17	
+R12	supports Arg1:T18 Arg2:T16	
+R13	supports Arg1:T19 Arg2:T17	
+R14	supports Arg1:T19 Arg2:T16	
+R15	supports Arg1:T17 Arg2:T2	
+R16	supports Arg1:T16 Arg2:T2	
+R17	supports Arg1:T10 Arg2:T2	
+R18	supports Arg1:T1 Arg2:T2	
+R19	attacks Arg1:T6 Arg2:T2	

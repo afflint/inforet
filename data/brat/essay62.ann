@@ -1,0 +1,53 @@
+T1	Premise 248 282	both genders are equally important
+T2	Premise 284 322	both must be given equal opportunities
+T3	Claim 324 397	Universities must admit both in equal numbers, depending on their choices
+A1	Stance T3 For
+T4	Premise 399 467	Right to education is a basic human right of both, males and females
+T5	Premise 469 511	The whole world aims for women empowerment
+T6	Claim 534 586	females should be given equal opportunities as males
+A2	Stance T6 For
+T7	Premise 588 689	When universities will accept them in equal number, both genders will be able to nurture their talent
+T8	Premise 694 740	a healthy competitive environment will develop
+T9	Premise 742 801	Co-education helps both genders to gel well with each other
+T10	Premise 803 862	It helps them how to behave and cooperate and work together
+T11	Premise 877 985	students studying in boy's colleges do not generally know how to talk to a female or behave in front of them
+T12	Premise 1006 1066	females studying in girl's colleges are too shy to face boys
+T13	Premise 1068 1132	Co-education will help to eradicate this kind of demerit in both
+T14	Claim 1134 1257	Universities giving both genders equal opportunities, will prepare then for future challenges and will help in the long run
+A3	Stance T14 For
+T15	Claim 1307 1396	women are incapable in particular fields, like maths, mechanical engineering, defence etc
+A4	Stance T15 Against
+T16	Premise 1398 1483	This kind of gender biased approach is detrimental for the development of the society
+T17	Premise 1485 1546	Time and again, women have proved their mettle in every field
+T18	Premise 1548 1656	Women like Margaret Thatcher, Indira Gandhi, Mari Curie etc., are symbols of women's intelligence and skills
+T19	Premise 1686 1716	both genders have equal rights
+T20	MajorClaim 1721 1769	universities should accept them in equal numbers
+T21	Premise 1771 1832	Equality in education will help in development of the society
+T22	Premise 1833 1876	Both genders are the fulcrum of the society
+T23	Premise 1881 1917	none of them is superior or inferior
+T24	Premise 1919 2019	Choice of course should be the discretion of the student and their merit, irrespective of the gender
+T25	Premise 2021 2069	Educational rights must be given to both genders
+R1	supports Arg1:T1 Arg2:T2	
+R2	supports Arg1:T2 Arg2:T3	
+R3	supports Arg1:T4 Arg2:T6	
+R4	supports Arg1:T5 Arg2:T6	
+R5	supports Arg1:T7 Arg2:T6	
+R6	supports Arg1:T8 Arg2:T6	
+R7	supports Arg1:T12 Arg2:T14	
+R8	supports Arg1:T9 Arg2:T14	
+R9	supports Arg1:T10 Arg2:T14	
+R10	supports Arg1:T11 Arg2:T14	
+R11	supports Arg1:T13 Arg2:T14	
+R12	attacks Arg1:T16 Arg2:T15	
+R13	attacks Arg1:T17 Arg2:T15	
+R14	attacks Arg1:T18 Arg2:T15	
+R15	supports Arg1:T19 Arg2:T20	
+R16	supports Arg1:T21 Arg2:T20	
+R17	supports Arg1:T22 Arg2:T20	
+R18	supports Arg1:T23 Arg2:T20	
+R19	supports Arg1:T24 Arg2:T20	
+R20	supports Arg1:T25 Arg2:T20	
+R21	supports Arg1:T3 Arg2:T20	
+R22	supports Arg1:T6 Arg2:T20	
+R23	supports Arg1:T14 Arg2:T20	
+R24	attacks Arg1:T15 Arg2:T20	

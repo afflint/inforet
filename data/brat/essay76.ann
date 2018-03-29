@@ -1,0 +1,30 @@
+T1	MajorClaim 1699 1770	government should fund the deprived for their health care and education
+T2	Claim 1847 1949	citizens available for the both should encourage the government to allocate money to more urgent areas
+A1	Stance T2 For
+T3	Premise 1962 2043	the harmonious society calls for the joint efforts of the government and citizens
+T4	Claim 343 439	it is the government that should be obligated to fund the health care and education for citizens
+A2	Stance T4 For
+T5	Premise 457 598	citizens enjoy the right to live in a harmonious and stable environment, which should be enabled by the government, the leader of the society
+T6	Premise 600 722	If citizens had no access to health care and education, their physical health and psychological soundness would be at risk
+T7	Premise 737 879	such people might fail to get cured in time, thus influencing their working efficiency, which would destabilize the production of the industry
+T8	Premise 887 1025	without sufficient guidance of teachers, these citizens might misbehave or even commit crimes, posing a threat to other citizens' security
+T9	Claim 1038 1146	the government should be accountable for citizens' health care and education to keep society safe and stable
+A3	Stance T9 For
+T10	Claim 1207 1321	it is a waste of public money for the government to subsidize health care and education of each citizen in society
+A4	Stance T10 Against
+T11	Premise 1329 1415	a great number of people, in fact, have had the capacity to pay for the both privately
+T12	Premise 1426 1673	the government should give priority to more pressing problems related to social members' wellbeing, such as soaring crime rate, AIDS epidemic or the shortage of infrastructure, which are requiring financial resources from the government to address
+R1	supports Arg1:T5 Arg2:T4	
+R2	supports Arg1:T6 Arg2:T4	
+R3	supports Arg1:T7 Arg2:T4	
+R4	supports Arg1:T8 Arg2:T4	
+R5	supports Arg1:T8 Arg2:T9	
+R6	supports Arg1:T7 Arg2:T9	
+R7	supports Arg1:T6 Arg2:T9	
+R8	supports Arg1:T5 Arg2:T9	
+R9	supports Arg1:T11 Arg2:T10	
+R10	supports Arg1:T12 Arg2:T10	
+R11	supports Arg1:T3 Arg2:T2	
+R12	attacks Arg1:T10 Arg2:T1	
+R13	supports Arg1:T9 Arg2:T1	
+R14	supports Arg1:T4 Arg2:T1	

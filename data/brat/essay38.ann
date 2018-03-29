@@ -1,0 +1,43 @@
+T1	MajorClaim 470 518	I find it hard for me to agree with this opinion
+T2	Premise 568 666	the progress of material technology leads to the sharp fall of price of a great number of products
+T3	Premise 668 814	About ten years ago, mobile phones ware very expensive for most members of my country, only a few of rich individuals have enough money to buy one
+T4	Premise 816 945	Today, mobile phones become a common one of household items, which due to the cheaper materials and better producing technologies
+T5	Claim 953 1068	most members of our society can benefit from the consequences of technical advancements, especially the poor people
+A1	Stance T5 For
+T6	Claim 1080 1249	technical developments improve productivity, which help people to escape from daily chores, and invest more time and energy in studying and living a more meaningful life
+A2	Stance T6 For
+T7	Premise 1251 1366	With the development of Internet, we can enjoy the pleasure and conveniences which it brings about for us every day
+T8	Premise 1368 1503	In the past time, we had to spend a lot of time searching information and waiting for letters of our friends who lived far away from us
+T9	Premise 1505 1597	Nowadays, we can talk with our friends online, no matter where we are and how far between us
+T10	Premise 1612 1670	the Internet gives everyone access to the same information
+T11	Claim 1672 1732	this therefore leads to greater equality between individuals
+A3	Stance T11 For
+T12	Claim 1824 1883	the gap between rich people and poor is widen by technology
+A4	Stance T12 Against
+T13	Premise 1893 1969	only the rich people have ability to afford the expensive high-tech products
+T14	Premise 1975 2026	these products can help them to earn more in return
+T15	Claim 2050 2116	it is a limp opposition to the remarkable advantages of technology
+A5	Stance T15 For
+T16	Claim 2122 2165	technology is not the root cause of the gap
+A6	Stance T16 For
+T17	Claim 2182 2230	the good technology bringing to us is undeniable
+A7	Stance T17 For
+T18	Claim 2232 2343	Under proper use of technology, the human being can be benefit a lot and perpetually from the advancement of it
+A8	Stance T18 For
+R1	supports Arg1:T5 Arg2:T1	
+R2	supports Arg1:T2 Arg2:T5	
+R3	supports Arg1:T3 Arg2:T5	
+R4	supports Arg1:T4 Arg2:T5	
+R5	supports Arg1:T7 Arg2:T6	
+R6	supports Arg1:T9 Arg2:T6	
+R7	supports Arg1:T8 Arg2:T6	
+R8	supports Arg1:T10 Arg2:T11	
+R9	supports Arg1:T6 Arg2:T1	
+R10	supports Arg1:T11 Arg2:T1	
+R11	supports Arg1:T13 Arg2:T12	
+R12	supports Arg1:T14 Arg2:T12	
+R13	attacks Arg1:T12 Arg2:T1	
+R14	supports Arg1:T15 Arg2:T1	
+R15	supports Arg1:T16 Arg2:T1	
+R16	supports Arg1:T18 Arg2:T1	
+R17	supports Arg1:T17 Arg2:T1	

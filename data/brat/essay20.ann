@@ -1,0 +1,31 @@
+T1	MajorClaim 191 300	more reponsibilities should put on private individuals and companies such as paying to clean up air pollution
+T2	Premise 310 424	in most industrialised countries, there is a number of companies that holds heavy factories in their constitutions
+T3	Premise 426 534	The waste products and harmful gases produced by these factories cause a significant amount of air pollution
+T4	Premise 536 700	While these companies make a huge amount of money from their bussinesses, most of them are not considering to take precautions to reduce the amount of air pollution
+T5	Claim 702 855	If these companies were obliged to pay to clean up the air pollution, they would at least make an effort to reduce the amount of air pollution they cause
+A1	Stance T5 For
+T6	Premise 865 970	private individuals cause air pollution in several ways such as inessential use of cars and house heating
+T7	Premise 972 1129	As house heating is a major need in the winter time, some households do not consider to use filters to reduce the amount of pollution that the heating causes
+T8	Premise 1148 1204	some expensive wehicles cause a huge amount of pollution
+T9	Claim 1221 1346	by charging private indiviuals for causing air pollution, that will at least contribute to reduce the amount of the pollution
+A2	Stance T9 For
+T10	Claim 1383 1490	governments should restrict the use of products that cause air pollution for both individuals and companies
+A3	Stance T10 For
+T11	Claim 1492 1577	Governments also should use an amount of money from their budgets to clean up the air
+A4	Stance T11 For
+T12	Premise 1696 1778	governments are responsible to provide a healthy enviorement for their inhabitants
+T13	Premise 1783 1844	they should be responsible from cleaning up the air pollution
+T14	Claim 1846 1940	both companies and private individuals should take the main part to clean up the air pollution
+A5	Stance T14 For
+R1	supports Arg1:T2 Arg2:T5	
+R2	supports Arg1:T3 Arg2:T5	
+R3	supports Arg1:T4 Arg2:T5	
+R4	supports Arg1:T6 Arg2:T9	
+R5	supports Arg1:T7 Arg2:T9	
+R6	supports Arg1:T8 Arg2:T9	
+R7	supports Arg1:T13 Arg2:T14	
+R8	supports Arg1:T12 Arg2:T14	
+R9	supports Arg1:T5 Arg2:T1	
+R10	supports Arg1:T9 Arg2:T1	
+R11	supports Arg1:T10 Arg2:T1	
+R12	supports Arg1:T14 Arg2:T1	

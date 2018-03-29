@@ -1,0 +1,35 @@
+T1	Claim 242 311	This, contrary to some ideas, is a positive progress in human society
+A1	Stance T1 For
+T2	Claim 350 430	the fairness between males and females is inevitable in such a developed society
+A2	Stance T2 For
+T3	Premise 432 542	Gone are the days when women could do nothing rather than stick to boring house work and take care of children
+T4	Premise 544 579	Women nowadays are much more active
+T5	Premise 581 680	they may be successful businessmen, they join the political world, they become scientists and so on
+T6	Premise 698 846	the "weaker" gender as often be thought has enough right as well as ability to contribute to the development of human beings just like any other men
+T7	Premise 863 902	they even perform better in some fields
+T8	Claim 925 1032	the revolution in females' right has brought about many benefits not only to themselves but society as well
+A3	Stance T8 For
+T9	Premise 1034 1168	The financial burden of families, for instance, has decreased significantly with both the wives and the husbands working to earn money
+T10	Premise 1184 1325	women have the outstanding instinct to take up some careers lie healthcare or human resource management due to their patience and elaboration
+T11	Claim 1672 1730	women should find the best way to overcome such challenges
+A4	Stance T11 For
+T12	Premise 1426 1537	under many circumstances, women find it difficult to balance their work and their traditional role as the wives
+T13	Premise 1545 1627	children might enjoy less care from parents as they arre both busy with theit work
+T14	Premise 1633 1670	everything has it upside and downside
+T15	Claim 1339 1421	such changes do lead to some negative results like an upward trend in divorce rate
+A5	Stance T15 Against
+T16	MajorClaim 1755 1900	in a society where females are given equal opportunities compared with males would obviously enjoy lots of benefits far outweighing its obstacles
+R1	supports Arg1:T3 Arg2:T2	
+R2	supports Arg1:T5 Arg2:T4	
+R3	supports Arg1:T4 Arg2:T2	
+R4	supports Arg1:T6 Arg2:T2	
+R5	supports Arg1:T7 Arg2:T2	
+R6	supports Arg1:T9 Arg2:T8	
+R7	supports Arg1:T10 Arg2:T8	
+R8	supports Arg1:T12 Arg2:T15	
+R9	supports Arg1:T13 Arg2:T15	
+R10	supports Arg1:T14 Arg2:T11	
+R11	supports Arg1:T1 Arg2:T16	
+R12	supports Arg1:T2 Arg2:T16	
+R13	supports Arg1:T8 Arg2:T16	
+R14	attacks Arg1:T15 Arg2:T16	

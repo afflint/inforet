@@ -1,0 +1,33 @@
+T1	MajorClaim 76 134	married women nowadays have right to take up jobs like men
+T2	Premise 140 212	employment discrimination based on gender have been erased significantly
+T3	Premise 214 305	Working outside home will bring a lot of benefits to both married woman and their household
+T4	Claim 635 701	it is a normal practice for women to be helpmates in earning money
+A1	Stance T4 For
+T5	Premise 364 435	extra income that women earn will contribute to their family's expenses
+T6	Premise 437 510	By taking up a job, a wife can earn more money to support her family life
+T7	Premise 512 629	This is really necessary in cases of her husband's low salary and the difficulty of getting a good job at the present
+T8	Claim 996 1064	it is no doubt that they play roles as a mother and as a wife better
+A2	Stance T8 For
+T9	Premise 713 862	working outside the house creates opportunities for married women to contact with the outer world, strengthen their character and show their capacity
+T10	Premise 864 927	These things in turn will make them more confident, independent
+T11	Premise 929 983	These women will set a good example for their children
+T12	Claim 1096 1175	there are many supporting conditions that help women balance housework and work
+A3	Stance T12 For
+T13	Premise 1177 1338	Besides the gorvernment's policies on limited families and their husbands' sharing in the housework, many employers are willing to offer part-time jobs for women
+T14	Claim 1439 1521	married women could go to work in order to enjoy the working life outside the home
+A4	Stance T14 For
+T15	Premise 1355 1434	a well-organized home does not need the housewife's presence the whole day long
+R1	supports Arg1:T2 Arg2:T1	
+R2	supports Arg1:T3 Arg2:T1	
+R3	supports Arg1:T5 Arg2:T4	
+R4	supports Arg1:T6 Arg2:T4	
+R5	supports Arg1:T7 Arg2:T4	
+R6	supports Arg1:T9 Arg2:T8	
+R7	supports Arg1:T10 Arg2:T8	
+R8	supports Arg1:T11 Arg2:T8	
+R9	supports Arg1:T13 Arg2:T12	
+R10	supports Arg1:T15 Arg2:T14	
+R11	supports Arg1:T4 Arg2:T1	
+R12	supports Arg1:T8 Arg2:T1	
+R13	supports Arg1:T12 Arg2:T1	
+R14	supports Arg1:T14 Arg2:T1	

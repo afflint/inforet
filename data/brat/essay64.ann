@@ -1,0 +1,32 @@
+T1	MajorClaim 414 486	parents and educators should attach more importance to traditional games
+T2	Claim 504 660	modern games may be, to some extent, beneficial for children to foster some skills, such as computer skills or the capacity to keep up with the latest trend
+A1	Stance T2 Against
+T3	Premise 678 860	children have to be proficient at computers and the Internet if they want to join online games, which, in fact, helps children acquire a particularly powerful skill at work in future
+T4	Premise 880 1019	children have the chance to experience the state-of-the-art technology, raising their awareness of innovation rather than stay conservative
+T5	Claim 1038 1184	traditional games are still indispensible in children's learning process, even much more essential than modern games, especially in modern society
+A2	Stance T5 For
+T6	Premise 1233 1276	they foster children's communication skills
+T7	Premise 1278 1485	Unlike most modern games which focus on the interactions between children and machines, traditional games provide a relaxing and enjoyable atmosphere where children can chat, laugh and cooperate face to face
+T8	Premise 1500 1587	communicating with a variety of people will not be an issue for these children any more
+T9	Claim 1602 1683	it is the educational functions traditional games hold that keep them alive today
+A3	Stance T9 For
+T10	Premise 1694 1869	these traditional games were elaborately devised by educators and have been proven effective in improving children's skills on different aspects in previous teaching practices
+T11	Premise 1884 1955	modern games are developed by game companies for the purpose of profits
+T12	Claim 1968 2137	there is a risk that children may be exposed to unhealthy contents, such as violence or pornography, arranged in the games by such companies to secure financial survival
+A4	Stance T12 For
+T13	Claim 2167 2272	traditional games should be, by no means, ignored by parents and teachers with the advent of modern games
+A5	Stance T13 For
+T14	Premise 2274 2375	Only through traditional games can children be ensured a positive and healthy skills learning process
+R1	supports Arg1:T3 Arg2:T2	
+R2	supports Arg1:T4 Arg2:T2	
+R3	supports Arg1:T6 Arg2:T5	
+R4	supports Arg1:T7 Arg2:T5	
+R5	supports Arg1:T8 Arg2:T5	
+R6	supports Arg1:T10 Arg2:T9	
+R7	supports Arg1:T11 Arg2:T12	
+R8	supports Arg1:T14 Arg2:T13	
+R9	attacks Arg1:T2 Arg2:T1	
+R10	supports Arg1:T5 Arg2:T1	
+R11	supports Arg1:T9 Arg2:T1	
+R12	supports Arg1:T12 Arg2:T1	
+R13	supports Arg1:T13 Arg2:T1	

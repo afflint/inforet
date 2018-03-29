@@ -1,0 +1,30 @@
+T1	Claim 173 241	there are still jobs which require the expertise of a human employee
+A1	Stance T1 For
+T2	Premise 258 295	it entails decision-making situations
+T3	Claim 298 470	One example of a job that got replaced by the availability of technology or computer to the public is the reservation and ticketing officers of travel agencies and airlines
+A2	Stance T3 Against
+T4	Premise 472 677	You can now see the availability of your intended travel dates online, make the reservation, know the price of the ticket you want to purchase and pay conveniently with your credit card and you're all done
+T5	Premise 679 794	You even have the choice of printing your own ticket or just pick it up at the airport at the day of your departure
+T6	Premise 811 924	there would still be several customers that prefer to talk with an agent in completing their purchase of a ticket
+T7	Premise 977 1045	they are just comfortable dealing with a human being than a computer
+T8	Claim 1047 1126	Jobs that the most computer can do is assist, would be that of a medical doctor
+A3	Stance T8 For
+T9	Premise 1143 1193	technology and computers do make their jobs easier
+T10	Premise 1198 1231	it cannot definitely replace them
+T11	Premise 1233 1263	It can have less work for them
+T12	Premise 1284 1462	instead of opening up a patient to get a gallstone, they would just use an instrument that would make a point incision and guide it through inside the body to do the job for them
+T13	MajorClaim 1496 1594	technology and computers cannot eventually replace the workforce and drive employees to be jobless
+T14	Premise 1596 1705	We still need the personal touch of a human in each and everything that technology or computer could offer us
+R1	supports Arg1:T2 Arg2:T1	
+R2	supports Arg1:T4 Arg2:T3	
+R3	supports Arg1:T5 Arg2:T3	
+R4	attacks Arg1:T6 Arg2:T3	
+R5	supports Arg1:T7 Arg2:T6	
+R6	attacks Arg1:T9 Arg2:T8	
+R7	attacks Arg1:T10 Arg2:T9	
+R8	supports Arg1:T11 Arg2:T8	
+R9	supports Arg1:T12 Arg2:T11	
+R10	supports Arg1:T14 Arg2:T13	
+R11	supports Arg1:T1 Arg2:T13	
+R12	attacks Arg1:T3 Arg2:T13	
+R13	supports Arg1:T8 Arg2:T13	

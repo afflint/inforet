@@ -1,0 +1,27 @@
+T1	Premise 346 387	the major source of energy today is water
+T2	Premise 398 454	there is a lot of water shortage to generate electricity
+T3	Premise 455 500	many countries still rely only on this source
+T4	Premise 502 576	To generate such a vast energy the fundamental resources are falling short
+T5	Premise 584 672	during summer there will be a lot of power cut in the developing countries such as India
+T6	Premise 674 821	If the government encourage the use of nuclear, solar or wind energy there might not be any problem in distributing the required amount electricity
+T7	Claim 834 935	it would be a good implication by the government to generate electricity from other available sources
+A1	Stance T7 For
+T8	Claim 947 1089	the sources most widely used currently to generate power releases extensive amount of gases into the atmosphere which increases global warming
+A2	Stance T8 For
+T9	Premise 1104 1201	the use of a solar cooker instead of an electric cooker would certainly reduce the global warming
+T10	Premise 1220 1325	the use of nuclear energy as an alternative to the hydro-kinetic energy causes less atmospheric pollution
+T11	MajorClaim 1340 1425	it would be a better implication by the government to promote other sources of energy
+T12	Premise 1427 1525	This can make use of the available natural resources which in turn would reduce the global warming
+T13	Claim 1536 1655	government should motivate and encourage the people to use alternative sources such as the solar and the nuclear energy
+A3	Stance T13 For
+R1	supports Arg1:T6 Arg2:T7	
+R2	supports Arg1:T5 Arg2:T7	
+R3	supports Arg1:T1 Arg2:T7	
+R4	supports Arg1:T2 Arg2:T7	
+R5	supports Arg1:T3 Arg2:T5	
+R6	supports Arg1:T4 Arg2:T5	
+R7	supports Arg1:T9 Arg2:T8	
+R8	supports Arg1:T10 Arg2:T8	
+R9	supports Arg1:T12 Arg2:T11	
+R10	supports Arg1:T8 Arg2:T11	
+R11	supports Arg1:T7 Arg2:T11	

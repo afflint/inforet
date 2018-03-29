@@ -1,0 +1,46 @@
+T1	MajorClaim 199 262	they may be factors decreasing the position of written language
+T2	Premise 332 381	we can see today about the use of these new means
+T3	Claim 397 535	it is easy to point out many benefits users can get from email and text messaging, which answers to the question of their great popularity
+A1	Stance T3 For
+T4	Premise 537 665	Before email and mobile phone, human beings communicated by meeting directly, sending letters or later, calling from home phones
+T5	Premise 667 808	Such ways usually made people have troubles for the expensiveness, difficulties in far communication or emergency and the loss of information
+T6	Premise 819 874	email and cell phones have improved the obstacles above
+T7	Premise 876 952	People can send or receive electronic letters anywhere and anytime they want
+T8	Premise 966 1128	thanks to the function provided by email and text messaging (SMS), it is cheaper and faster to transfer a lot of information, even to many people at the same time
+T9	Premise 1130 1236	They are so convenient that the majority of population prefer to use them instead of some traditional ways
+T10	Claim 1238 1345	The popularity of email and text messaging, as a result, leads to the losing of written language's position
+A2	Stance T10 For
+T11	Claim 1846 1952	If that tendency continues at a rapid pace, written language may face up to a real problem about its stand
+A3	Stance T11 For
+T12	Premise 1347 1476	People tend to use slangs and abbreviated words to shorten their writing and save more time in communicating for other activities
+T13	Premise 1498 1545	language in writing is not in its original form
+T14	Premise 1567 1666	people compose a message with only emoticons (the expressions by face created by service providers)
+T15	Premise 1680 1724	there is no room for writing or typing texts
+T16	Premise 1736 1844	it is more dangerous that youngsters sometimes use such new languages in their studying, writing assignments
+T17	Claim 1969 2091	we cannot deny the threat from email and text messaging to the status of written language because their obvious popularity
+A4	Stance T17 For
+T18	Claim 2107 2206	educators and individuals themselves, especially the youths should pay ore attention to this matter
+A5	Stance T18 For
+T19	Premise 2215 2299	we can take advantages of the new language along with preserving the traditional one
+R1	supports Arg1:T2 Arg2:T1	
+R2	supports Arg1:T4 Arg2:T3	
+R3	supports Arg1:T5 Arg2:T3	
+R4	supports Arg1:T6 Arg2:T3	
+R5	supports Arg1:T7 Arg2:T3	
+R6	supports Arg1:T8 Arg2:T3	
+R7	supports Arg1:T9 Arg2:T3	
+R8	supports Arg1:T3 Arg2:T1	
+R9	supports Arg1:T12 Arg2:T10	
+R10	supports Arg1:T13 Arg2:T10	
+R11	supports Arg1:T15 Arg2:T10	
+R12	supports Arg1:T14 Arg2:T10	
+R13	supports Arg1:T16 Arg2:T10	
+R14	supports Arg1:T12 Arg2:T11	
+R15	supports Arg1:T13 Arg2:T11	
+R16	supports Arg1:T14 Arg2:T11	
+R17	supports Arg1:T15 Arg2:T11	
+R18	supports Arg1:T16 Arg2:T11	
+R19	supports Arg1:T10 Arg2:T1	
+R20	supports Arg1:T11 Arg2:T1	
+R21	supports Arg1:T17 Arg2:T1	
+R22	supports Arg1:T19 Arg2:T18	

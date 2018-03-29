@@ -1,0 +1,17 @@
+T1	Premise 242 363	The poor countries are buried in debts which are caused by loans they borrowed from The World Bank and the rich countries
+T2	MajorClaim 426 525	the richer countries should take efforts in improving important areas in the less fortune countries
+T3	Premise 528 605	Most of the people in African and poor countries live in difficult conditions
+T4	Premise 617 736	their countries locate in areas where lack of natural resources and have bad weather conditions for development as well
+T5	Premise 738 886	In these countries, citizens are in need for foods, corrupt and unemployment rate is at high level, the consequences of AIDS are devastating quickly
+T6	Claim 888 1142	These problems will be dealt with if the richer countries agree to help by donating free drugs for the inflected population, sending doctors and nurses to treat and educate those in need, teaching the inflected citizens how to prevent this disease spread
+A1	Stance T6 For
+T7	Claim 1706 1833	the rich countries play an important role in helping poor countries develop important areas such as trade, health and education
+A2	Stance T7 For
+T8	Premise 1835 1926	Besides rely on helps from rich countries, poor countries should take efforts by themselves
+R1	supports Arg1:T1 Arg2:T2	
+R2	supports Arg1:T4 Arg2:T3	
+R3	supports Arg1:T3 Arg2:T6	
+R4	supports Arg1:T5 Arg2:T6	
+R5	supports Arg1:T8 Arg2:T7	
+R6	supports Arg1:T6 Arg2:T2	
+R7	supports Arg1:T7 Arg2:T2	

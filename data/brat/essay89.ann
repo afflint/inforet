@@ -1,0 +1,47 @@
+T1	MajorClaim 2163 2228	I consider knowledge from experience as the more important source
+T2	Premise 607 656	knowledge acquired from books is greatly accepted
+T3	Premise 489 594	It is apparent that books are often written by professors, experts, or authorities in a variety of fields
+T4	Premise 675 708	it is right to the bulk of people
+T5	Premise 721 807	knowledge from experience seems a little different from information contained in books
+T6	Premise 829 889	it is common in books that water boils at 100 Celcius degree
+T10	Premise 1327 1386	it is difficult to apply knowledge from books into practice
+T8	Premise 1397 1453	it is easy to put knowledge from experience in real life
+T9	Premise 1462 1508	it is acquired from what have happened to them
+T12	Premise 1524 1586	a student decides to learn about chemical reactions from books
+T13	Premise 1588 1643	This method is likely to be fast, simple, and even safe
+T14	Premise 1659 1801	there is an increased likelihood that he neither remembers the necessary information for a long time nor knows how to do an make an experiment
+T15	Premise 1814 1931	if he goes to the library and carries out the reactions, he is certain to have a thorough grasp of the phenomena seen
+T16	Premise 1933 1991	He is also able to use this information for the next times
+T17	Claim 2001 2075	knowledge from experience helps people more than knowledge from books does
+A5	Stance T17 For
+T18	Premise 2113 2152	knowledge from books is widely accepted
+T19	Premise 2275 2361	Experiencing a thing and drawing information from it is really interesting and helpful
+T20	Claim 439 487	the accuracy of knowledge is crucially important
+A1	Stance T20 For
+T7	Premise 900 944	the result is not always the same in reality
+T21	Premise 953 1036	it also depends on the height, the purity of the water, and even the measuring tool
+T22	Premise 1110 1178	the practicability is one of the most essential factors of knowledge
+T11	Premise 1198 1255	information contained in books is usually put in criteria
+T23	Premise 1264 1311	many people can read and understand the content
+R1	supports Arg1:T3 Arg2:T2	
+R2	supports Arg1:T4 Arg2:T2	
+R3	supports Arg1:T2 Arg2:T20	
+R4	supports Arg1:T5 Arg2:T20	
+R5	supports Arg1:T21 Arg2:T7	
+R6	supports Arg1:T6 Arg2:T5	
+R7	attacks Arg1:T7 Arg2:T6	
+R8	supports Arg1:T22 Arg2:T17	
+R9	supports Arg1:T23 Arg2:T11	
+R10	supports Arg1:T11 Arg2:T10	
+R12	supports Arg1:T9 Arg2:T8	
+R13	supports Arg1:T10 Arg2:T17	
+R11	supports Arg1:T8 Arg2:T10	
+R16	supports Arg1:T12 Arg2:T10	
+R17	supports Arg1:T13 Arg2:T10	
+R18	supports Arg1:T14 Arg2:T10	
+R19	supports Arg1:T15 Arg2:T10	
+R15	supports Arg1:T16 Arg2:T10	
+R14	attacks Arg1:T18 Arg2:T1	
+R20	supports Arg1:T19 Arg2:T1	
+R21	supports Arg1:T17 Arg2:T1	
+R22	supports Arg1:T20 Arg2:T1	

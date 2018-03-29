@@ -1,0 +1,34 @@
+T1	Claim 274 343	the prevalent of English brings a great number of benefits for people
+A1	Stance T1 For
+T2	Premise 359 462	it promotes the communication and interaction between different countries more conveniently and clearly
+T4	Premise 595 661	the innovation of plane and train solved the geographical barriers
+T5	Premise 663 746	If we can popularize the use of English, the language hinder will disappear as well
+T6	Premise 761 860	English is a beautiful language, which is more systematical and extensive than many other languages
+T7	Premise 862 945	Learning English can foster people's sentiment and nourish their literature and art
+T3	Premise 464 580	In the ancient time, the different languages and geography set barriers for people to exchange their goods and ideas
+T8	Claim 983 1046	the dominated status of English has destroyed culture diversity
+A2	Stance T8 Against
+T9	Claim 1051 1090	many less-used languages become extinct
+A3	Stance T9 Against
+T10	Premise 1097 1132	English is a sophisticated language
+T11	Premise 1134 1251	it does not express every detail of life especially in Asia countries, which have totally different linguistic system
+T12	Premise 1275 1394	language contains many aspects of people's daily life, which is influenced by culture, environment as well as religious
+T13	Premise 1407 1478	these languages have special significance for people who belong to them
+T14	Premise 1483 1523	using English to replace them is crudity
+T15	MajorClaim 1537 1648	English as an elegant language should be advocated in many fields to expand the global trade and communications
+T16	Claim 1655 1751	we still need preserve other languages for sake of keeping the linguistic and cultural diversity
+A4	Stance T16 For
+R1	supports Arg1:T2 Arg2:T1	
+R2	supports Arg1:T3 Arg2:T1	
+R3	supports Arg1:T5 Arg2:T1	
+R4	supports Arg1:T6 Arg2:T1	
+R5	supports Arg1:T7 Arg2:T1	
+R6	supports Arg1:T4 Arg2:T2	
+R7	attacks Arg1:T10 Arg2:T8	
+R8	supports Arg1:T11 Arg2:T8	
+R9	supports Arg1:T12 Arg2:T8	
+R10	supports Arg1:T13 Arg2:T8	
+R11	supports Arg1:T14 Arg2:T8	
+R12	attacks Arg1:T8 Arg2:T15	
+R13	attacks Arg1:T9 Arg2:T15	
+R14	supports Arg1:T1 Arg2:T15	

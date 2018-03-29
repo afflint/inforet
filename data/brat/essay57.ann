@@ -1,0 +1,43 @@
+T1	Premise 178 214	Creativity originates in a free mind
+T2	MajorClaim 223 313	creative artists must be given the freedom to express their ideas without any restrictions
+T3	Premise 331 462	creative artists like Michaelangelo, Picasso, Salman Rushdie, Shakespeare etc. have made artistic works which gave a social message
+T4	Premise 464 615	Right from sculptures to paintings, books to drama and movies, all these artistic works have reflected the contemporary social issues of different eras
+T5	Claim 617 690	Creative works help to create social awareness by giving a social message
+A1	Stance T5 For
+T6	Claim 705 802	innovative works makes people realise things in a peaceful way and peep into their own conscience
+A2	Stance T6 For
+T7	Premise 804 878	It helps to raise issues and criticise the wrong doings of the governments
+T8	Premise 894 1012	Bangladeshi writer Taslima Nasrin was accused of acting against the government, just because she raised a social issue
+T9	Claim 1014 1075	This type of approach is a hurdle in promoting creative minds
+A3	Stance T9 For
+T10	Claim 1090 1127	creativity also gives aesthetic charm
+A4	Stance T10 For
+T11	Premise 1208 1265	Mind is like a parachute, it doesn't work if its not open
+T12	Premise 1268 1361	Restrictions would just curb the innovative ideas of the artists and would limit their brains
+T13	Claim 1363 1449	Like the media, artists should also be given the freedom to express their ideas freely
+A5	Stance T13 For
+T14	Claim 1460 1525	artists should also know not to hurt the sentiments of the people
+A6	Stance T14 For
+T15	Premise 1527 1647	Many artists have been involved in controversies because of hurting the religious or social beliefs of the common people
+T16	Claim 1649 1761	Artists should have self-awareness not to create vulgar, hurtful or useless works which do not serve any purpose
+A7	Stance T16 For
+T17	Claim 1785 1834	artists should be given the freedom of expression
+A8	Stance T17 For
+T18	Premise 1836 1886	Mind can not work when it is chained in boundaries
+T19	Premise 1888 2000	Imagination is at its best when the mind is relaxed and free from the fear of government or any restrictive laws
+R1	supports Arg1:T1 Arg2:T2	
+R2	supports Arg1:T3 Arg2:T5	
+R3	supports Arg1:T4 Arg2:T5	
+R4	supports Arg1:T7 Arg2:T6	
+R5	supports Arg1:T8 Arg2:T9	
+R6	supports Arg1:T11 Arg2:T13	
+R7	supports Arg1:T12 Arg2:T13	
+R8	supports Arg1:T18 Arg2:T17	
+R9	supports Arg1:T19 Arg2:T17	
+R10	supports Arg1:T15 Arg2:T14	
+R11	supports Arg1:T5 Arg2:T2	
+R12	supports Arg1:T6 Arg2:T2	
+R13	supports Arg1:T9 Arg2:T2	
+R14	supports Arg1:T10 Arg2:T2	
+R15	supports Arg1:T13 Arg2:T2	
+R16	supports Arg1:T17 Arg2:T2	

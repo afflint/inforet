@@ -1,0 +1,38 @@
+T1	MajorClaim 325 384	advertising is the major reason for high sales of a product
+T2	Premise 118 207	The most effective way to convince consumers to purchase a product is through advertising
+T3	Premise 218 248	it is not sufficient in itself
+T4	Premise 250 308	The product also should satisfy the needs of the consumers
+T5	Claim 407 466	We are mainly introduced to products through advertisements
+A1	Stance T5 For
+T6	Premise 479 569	advertisers push the limits of creativity to dispose the consumers to purchase the product
+T7	Premise 571 714	When the consumers are impressed by the way a product is advertised, they can be convinced to consider that the product is a need in some cases
+T8	Premise 726 795	there is a very creative advertisements of a soft drink product on TV
+T9	Premise 797 909	The story delivers a desired call to drink that soft drink that people tend to drink when the weather is too hot
+T10	Premise 932 984	the number of that product being sold will increases
+T11	Claim 1479 1567	advertisements have undeniable affects on the society about the product being advertised
+A2	Stance T11 For
+T12	Premise 1569 1601	They make the product preferable
+T13	Premise 993 1095	the more an advertisement of a product takes place in mass media, the more popular the product becomes
+T14	Premise 1097 1167	Advertisement is the most effective way to create a well-known product
+T15	Premise 1169 1295	Consumers tend to purchase the most known product when it comes to picking one out of two different brands of the same product
+T16	Premise 1297 1398	When a product is commonly used, it becomes trustworthy for the society, no matter what quality it is
+T17	Premise 1409 1454	it also has to be affordable for the consumer
+T18	Claim 1701 1769	high sales are obviously a reflection of the powerful advertisements
+A3	Stance T18 For
+R1	supports Arg1:T2 Arg2:T1	
+R2	attacks Arg1:T3 Arg2:T1	
+R3	supports Arg1:T4 Arg2:T3	
+R4	supports Arg1:T6 Arg2:T5	
+R5	supports Arg1:T9 Arg2:T10	
+R6	supports Arg1:T8 Arg2:T10	
+R7	supports Arg1:T10 Arg2:T6	
+R8	supports Arg1:T7 Arg2:T6	
+R9	supports Arg1:T5 Arg2:T1	
+R10	supports Arg1:T13 Arg2:T11	
+R11	supports Arg1:T14 Arg2:T11	
+R12	supports Arg1:T15 Arg2:T14	
+R13	supports Arg1:T16 Arg2:T15	
+R14	supports Arg1:T12 Arg2:T11	
+R15	attacks Arg1:T17 Arg2:T11	
+R16	supports Arg1:T11 Arg2:T1	
+R17	supports Arg1:T18 Arg2:T1	

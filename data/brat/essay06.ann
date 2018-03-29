@@ -1,0 +1,87 @@
+T1	MajorClaim 461 515	Excerising is one of the most important things in life
+T2	Premise 520 538	it can even be fun
+T3	Premise 149 248	America's number one killer is cardiovascular diseases, which can easily be prevented by exercising
+T4	Premise 250 373	Exercise not only reduces the risk of health problems and various diseases, but it also has an effect on overall appearance
+T5	Premise 393 459	exercising and being active can improve self-esteem and confidence
+T6	Premise 540 612	It is a crucial element for living a healthier, longer, and happier life
+T7	Claim 615 699	The number one reason why people should exercise is because it will keep you healthy
+A1	Stance T7 For
+T8	Premise 701 763	Americans are eating enormous amounts of fast foods these days
+T9	Premise 768 825	cardiovascular diseases are becoming more and more common
+T10	Premise 827 980	One out of every four Americans are suffering from some form of cardiovascular diseases, which results in more than forty-five percent of deaths annually
+T11	Premise 982 1026	The main cause for this condition is obesity
+T12	Premise 1028 1100	The more body fat that you have, the greater your risk for heart disease
+T13	Premise 1111 1177	this condition can easily be prevented or controlled by exercising
+T14	Premise 1179 1222	Exercising makes the heart muscles stronger
+T15	Premise 1224 1312	When your heart muscle is strong it can do the same amount of work at a lower heart rate
+T16	Premise 1317 1384	the heart doesn't have to work as hard as it does with weak muscles
+T17	Premise 1537 1680	Exercising not only helps prevent cardiovascular diseases, but it also helps prevent strokes, type 2 diabetes, and even certain types of cancer
+T18	Premise 1912 1970	people who exercise have higher self esteem and confidence
+T19	Premise 1992 2052	active people are less likely to have depression and anxiety
+T20	Premise 2054 2135	Exercising gives people energy, which helps people have positive outlooks on life
+T21	Premise 2140 2176	it helps relieves tension and stress
+T22	Premise 2178 2282	When you exercise you body releases endorphins, which are chemicals that create a happy feeling in brain
+T23	Premise 2290 2396	when you're exercising you're bringing more oxygen into you lungs and your brain appreciates the extra air
+T24	Premise 2398 2462	Exercising also helps improve you brain function and your memory
+T25	Claim 1724 1762	it improves self-esteem and confidence
+A2	Stance T25 For
+T26	Premise 1764 1829	Most people think of exercising as only being a physical activity
+T27	Premise 1835 1862	it's also a mental activity
+T28	Premise 2554 2617	exercising takes up a lot of time and it requires too much work
+T29	Claim 2514 2529	it's really fun
+A3	Stance T29 For
+T30	Premise 2619 2713	When people actually take the time to try exercising they realize it's an enjoyable experience
+T31	Premise 2715 2782	It doesn't matter how you exercise, as long as you are being active
+T32	Premise 2887 2986	When you having fun you don't even realize that your exercising and you look forward to it everyday
+T33	Premise 2988 3073	Setting goals and rewards will help you stay motivated and consistent with exercising
+T34	Premise 3075 3180	There is no greater feeling than achieving a weight lose goal and being able to feel good about your body
+T36	Claim 3306 3352	It is one of the most important things in life
+A4	Stance T36 For
+T37	Premise 3357 3392	it's one hundred percent beneficial
+T38	Premise 3394 3452	Many people come up with plenty of excuses to not exercise
+T39	Premise 3463 3569	if you truly want to improve your mental and physical health you will find the energy and time to exercise
+T40	Claim 3571 3626	Everyone should take time out of their days to exercise
+A5	Stance T40 For
+T41	Premise 3631 3672	they can improve their lives in many ways
+T42	Premise 3787 3827	It is extremely rewarding and worthwhile
+T35	Premise 3232 3304	exercising is the key to making your life healthier, longer, and happier
+R1	supports Arg1:T4 Arg2:T1	
+R2	supports Arg1:T2 Arg2:T1	
+R3	supports Arg1:T6 Arg2:T1	
+R4	supports Arg1:T3 Arg2:T1	
+R5	supports Arg1:T5 Arg2:T1	
+R6	supports Arg1:T8 Arg2:T9	
+R7	supports Arg1:T9 Arg2:T7	
+R8	supports Arg1:T10 Arg2:T9	
+R9	supports Arg1:T11 Arg2:T7	
+R10	supports Arg1:T12 Arg2:T11	
+R11	supports Arg1:T13 Arg2:T7	
+R12	supports Arg1:T14 Arg2:T7	
+R13	supports Arg1:T15 Arg2:T16	
+R14	supports Arg1:T16 Arg2:T7	
+R15	supports Arg1:T17 Arg2:T7	
+R16	attacks Arg1:T26 Arg2:T25	
+R17	supports Arg1:T18 Arg2:T25	
+R18	supports Arg1:T19 Arg2:T25	
+R19	supports Arg1:T20 Arg2:T25	
+R20	supports Arg1:T21 Arg2:T25	
+R21	supports Arg1:T22 Arg2:T25	
+R22	supports Arg1:T24 Arg2:T25	
+R23	supports Arg1:T23 Arg2:T25	
+R24	supports Arg1:T27 Arg2:T25	
+R25	attacks Arg1:T28 Arg2:T29	
+R26	supports Arg1:T31 Arg2:T29	
+R27	supports Arg1:T32 Arg2:T29	
+R28	supports Arg1:T33 Arg2:T29	
+R29	supports Arg1:T34 Arg2:T29	
+R30	supports Arg1:T30 Arg2:T29	
+R31	supports Arg1:T35 Arg2:T36	
+R32	supports Arg1:T37 Arg2:T36	
+R33	attacks Arg1:T38 Arg2:T36	
+R34	attacks Arg1:T39 Arg2:T38	
+R35	supports Arg1:T41 Arg2:T40	
+R36	supports Arg1:T42 Arg2:T40	
+R37	supports Arg1:T7 Arg2:T1	
+R38	supports Arg1:T25 Arg2:T1	
+R39	supports Arg1:T29 Arg2:T1	
+R40	supports Arg1:T36 Arg2:T1	

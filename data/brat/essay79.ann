@@ -1,0 +1,41 @@
+T1	MajorClaim 380 451	arts are supposed to be included in the government's investment as well
+T2	Claim 2005 2086	public services and facilities are an integral part of the government expenditure
+A1	Stance T2 For
+T3	Claim 2106 2208	the authorities should also respect the value of arts which are individually and socially advantageous
+A2	Stance T3 For
+T4	Premise 552 722	the government plays the role of a leader among citizens, which should discharge the responsibility of making optimal use of the tax money to keep society safe and stable
+T5	Premise 740 930	public services such as education system or medical care can meet people's basic demand of survival, security and knowledge, thus making them feel comfortable, which can lower the crime rate
+T6	Claim 943 1056	public services and facilities should be given adequate attention by the authorities to maintain social stability
+A3	Stance T6 Against
+T7	Claim 465 534	the government should give priority to public services and facilities
+A4	Stance T7 Against
+T8	Premise 1161 1200	arts can enrich people's cultural lives
+T9	Premise 1213 1302	people are increasingly occupied with their work and studies due to the stiff competition
+T10	Premise 1318 1429	they require various entertainment such as music, movies or books to them ease their minds and release pressure
+T11	Premise 1431 1504	Without arts, people would be at risk of suffering psychological problems
+T12	Claim 1087 1145	arts should by no means been disregarded by the government
+A5	Stance T12 For
+T13	Premise 1677 1893	This means preserving local arts may promote the preservation of the local cultural heritage, which not only helps the local people have a sense of belonging but also contributes to the booming local tourism industry
+T14	Claim 1545 1618	funding arts is beneficial to the local cultural and economic development
+A6	Stance T14 For
+T15	Premise 1620 1675	Cultural heritage constitutes an essential part of arts
+T16	Claim 1909 1950	arts serve cultural and economic purposes
+A8	Stance T16 For
+R1	supports Arg1:T4 Arg2:T7	
+R2	supports Arg1:T4 Arg2:T6	
+R3	supports Arg1:T5 Arg2:T7	
+R4	supports Arg1:T5 Arg2:T6	
+R5	attacks Arg1:T7 Arg2:T1	
+R6	attacks Arg1:T6 Arg2:T1	
+R7	supports Arg1:T8 Arg2:T12	
+R8	supports Arg1:T9 Arg2:T10	
+R9	supports Arg1:T10 Arg2:T12	
+R10	supports Arg1:T11 Arg2:T12	
+R11	supports Arg1:T12 Arg2:T1	
+R12	supports Arg1:T15 Arg2:T14	
+R13	supports Arg1:T15 Arg2:T16	
+R14	supports Arg1:T13 Arg2:T14	
+R15	supports Arg1:T13 Arg2:T16	
+R16	supports Arg1:T14 Arg2:T1	
+R17	supports Arg1:T16 Arg2:T1	
+R18	supports Arg1:T3 Arg2:T1	

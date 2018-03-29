@@ -1,0 +1,43 @@
+T1	MajorClaim 216 302	I do not think these disadvantages will outweigh the advantages brought by cell phones
+T2	Claim 410 497	almost everything that changed our lifestyle a lot will also cause some social problems
+A1	Stance T2 Against
+T3	Claim 499 539	Mobile phones are not out of expectation
+A2	Stance T3 Against
+T4	Premise 541 669	Speaking loudly on the phone in public areas, such as schools, libraries and hospitals appears to be very impolite and offensive
+T5	Premise 687 838	some students utilize their cell phones as an effective cheating tools in examinations in which they can send and receive answers by texting each other
+T6	Premise 854 968	it is not impossible to solve these problems, as long as some regulations and rules can be effectively implemented
+T7	Claim 1003 1048	some harmful effects on our health are lethal
+A3	Stance T7 Against
+T8	Premise 1074 1209	overusing of the electronic devices including mobile phones could lead to higher possibility of suffering hearing loss and even cancers
+T9	Premise 1224 1256	further investigation are needed
+T10	Claim 1305 1394	There is panic among people that their conversation can be intercepted by the third party
+A4	Stance T10 Against
+T11	Premise 1438 1541	a more efficient and reliable system can also be invented to guarantee the private information of users
+T12	Claim 1553 1639	the mobile phone has become a dispensable multifunctional tools in people's daily life
+A5	Stance T12 For
+T13	Premise 1641 1770	Not only used for communication, but it also functions as an Internet browser, a music player , a personal organiser and so forth
+T14	Premise 1787 1831	nothing can be overused without side effects
+T15	Claim 1833 1904	The contribution of the mobile phone to our modern society is prominent
+A6	Stance T15 For
+T16	Claim 1909 1950	people's dependence on it is irreversible
+A7	Stance T16 For
+T17	Premise 1961 2016	it has a number of problems that should be well handled
+R1	supports Arg1:T4 Arg2:T2	
+R2	supports Arg1:T4 Arg2:T3	
+R3	supports Arg1:T5 Arg2:T2	
+R4	supports Arg1:T5 Arg2:T3	
+R5	attacks Arg1:T6 Arg2:T2	
+R6	attacks Arg1:T6 Arg2:T3	
+R7	attacks Arg1:T2 Arg2:T1	
+R8	attacks Arg1:T3 Arg2:T1	
+R9	supports Arg1:T8 Arg2:T7	
+R10	attacks Arg1:T9 Arg2:T7	
+R11	attacks Arg1:T7 Arg2:T1	
+R12	attacks Arg1:T11 Arg2:T10	
+R13	attacks Arg1:T10 Arg2:T1	
+R14	supports Arg1:T13 Arg2:T12	
+R15	supports Arg1:T12 Arg2:T1	
+R16	supports Arg1:T14 Arg2:T15	
+R17	attacks Arg1:T17 Arg2:T16	
+R18	supports Arg1:T15 Arg2:T1	
+R19	supports Arg1:T16 Arg2:T1	

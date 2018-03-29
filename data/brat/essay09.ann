@@ -1,0 +1,65 @@
+T1	MajorClaim 336 372	prohibition does more harm than good
+T2	Claim 374 442	The legalization of marijuana would help get the economy going again
+A1	Stance T2 For
+T3	Premise 444 561	Despite great efforts by the federal government against marijuana, it has become a large part of the national economy
+T4	Premise 571 707	if we were to legalize and tax it, the government would make tons of profit and we could start paying off this $16trillion national debt
+T5	Premise 709 812	Not to mention it would create tons of jobs and people in prison for marijuana crimes would be released
+T6	Premise 814 951	In a country with only 5% of the earth's population, the United States holds 25% of the world's prisoners ("Marijuana Prison Statistics")
+T7	Premise 953 1029	A significant amount of those criminals are in there for drug related crimes
+T8	Premise 1529 1627	Legalize marijuana and you cut a huge percent of their profits, army strength, and political power
+T9	Premise 1629 1711	Otherwise they're going to do whatever they can to save the marijuana black market
+T10	Premise 1454 1527	Another group that benefits greatly from prohibition are the drug cartels
+T11	Claim 1031 1069	The war on drugs is a complete failure
+A2	Stance T11 For
+T12	Premise 1071 1184	It's done nothing but waste tax payer dollars, fill prisons with non violent criminals, and create a black market
+T13	Premise 1306 1452	Pharmaceutical companies lobby against cannabis because at a lower price, there are so many drugs (painkillers, sleep medication) it could replace
+T14	Premise 1186 1291	The main reason cannabis remains illegal is because lobbyists are making tons of money off of prohibition
+T15	Claim 1734 1803	marijuana is physically unhealthy for you and that's why it's illegal
+A3	Stance T15 Against
+T16	Claim 2050 2104	prohibition has kept marijuana out of children's hands
+A4	Stance T16 Against
+T17	Premise 2117 2180	legalizing this drug would expose more children and teens to it
+T18	Premise 2182 2267	It's a whole lot easier for kids to obtain marijuana as opposed to alcohol or tobacco
+T19	Premise 2269 2324	A drug dealer doesn't check for ID like a cashier would
+T20	Premise 2326 2387	Teens are susceptible to harsher drugs after trying marijuana
+T21	Premise 2396 2532	they are introduced to these hardcore drugs in the same underground market where they got the marijuana, not because it's a gateway drug
+T22	Claim 2575 2650	marijuana is addictive and can be abused, thus making it mentally unhealthy
+A5	Stance T22 Against
+T23	Premise 2681 2754	anything has the potential to be abused, even something as simple as food
+T24	Premise 1814 1869	you'd have to explain why alcohol and tobacco are legal
+T25	Premise 1878 1929	those substances are way more harmful than cannabis
+T26	Premise 1931 1978	79,000 people a year die from alcohol poisoning
+T27	Premise 1986 2030	zero people have died from overdosing on pot
+T28	Premise 2830 2953	Many musicians admit that cannabis helps them get creative with their music and opens their minds to new ideas and concepts
+T29	Premise 2955 3081	Many cancer patients have used medical marijuana as a way of dealing with nausea after treatment or stimulating their appetite
+T30	Claim 3096 3184	people have benefited from marijuana whether it was for medical or recreational purposes
+A6	Stance T30 For
+R1	supports Arg1:T3 Arg2:T2	
+R2	supports Arg1:T4 Arg2:T2	
+R3	supports Arg1:T5 Arg2:T2	
+R4	supports Arg1:T7 Arg2:T5	
+R5	supports Arg1:T6 Arg2:T5	
+R6	supports Arg1:T12 Arg2:T11	
+R7	supports Arg1:T14 Arg2:T11	
+R8	supports Arg1:T10 Arg2:T11	
+R9	supports Arg1:T13 Arg2:T14	
+R10	supports Arg1:T8 Arg2:T11	
+R11	supports Arg1:T9 Arg2:T8	
+R12	attacks Arg1:T24 Arg2:T15	
+R13	supports Arg1:T25 Arg2:T24	
+R14	supports Arg1:T26 Arg2:T25	
+R15	attacks Arg1:T27 Arg2:T15	
+R16	supports Arg1:T17 Arg2:T16	
+R17	attacks Arg1:T18 Arg2:T16	
+R18	supports Arg1:T21 Arg2:T20	
+R19	supports Arg1:T19 Arg2:T18	
+R20	supports Arg1:T20 Arg2:T16	
+R21	attacks Arg1:T23 Arg2:T22	
+R22	supports Arg1:T28 Arg2:T30	
+R23	supports Arg1:T29 Arg2:T30	
+R24	supports Arg1:T2 Arg2:T1	
+R25	supports Arg1:T11 Arg2:T1	
+R26	attacks Arg1:T15 Arg2:T1	
+R27	attacks Arg1:T16 Arg2:T1	
+R28	attacks Arg1:T22 Arg2:T1	
+R29	supports Arg1:T30 Arg2:T1	

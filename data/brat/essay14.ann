@@ -1,0 +1,36 @@
+T1	MajorClaim 1519 1585	students learn far more from their teachers than from other source
+T2	Premise 1595 1679	not only do teachers teach us knowlegde but also the skills to tell right from wrong
+T3	Premise 369 395	they find it quite helpful
+T4	Claim 319 364	many students learn from Internet after class
+A1	Stance T4 Against
+T5	Premise 282 313	They all enrich our daily lives
+T6	Premise 522 609	teachers teach students how to write, read and calculate since they are in kindergarten
+T7	Premise 614 730	when they are in primary school, teachers teach them more further knowledge, like writing skills and using computers
+T8	Premise 731 788	It is teachers that help them with obstacles in schooling
+T9	Premise 809 927	students gain most of the knowledge through teachers and learn what is right and wrong with the assistance of teachers
+T10	Claim 419 504	students at schools and universities still learn much more from lessons with teachers
+A2	Stance T10 For
+T11	Claim 949 1028	students learn far more from other sources, such as the Internet and television
+A3	Stance T11 Against
+T12	Premise 1050 1133	within this sources students learn lots of things which they can't learn in classes
+T13	Premise 1135 1250	They can only input some key words and google it, and then there are numberless articles and websites related to it
+T14	Premise 1266 1295	stundents learn things easily
+T15	Premise 1307 1369	they contend that good television programmes do teach students
+T16	Premise 1384 1431	Discovery Channel has many instructive episodes
+T17	Premise 1433 1492	Students have knowledge of others cultrues, outer space etc
+R1	supports Arg1:T2 Arg2:T1	
+R2	supports Arg1:T5 Arg2:T4	
+R3	supports Arg1:T3 Arg2:T4	
+R4	attacks Arg1:T4 Arg2:T1	
+R5	supports Arg1:T6 Arg2:T10	
+R6	supports Arg1:T7 Arg2:T10	
+R7	supports Arg1:T8 Arg2:T10	
+R8	supports Arg1:T9 Arg2:T10	
+R9	supports Arg1:T10 Arg2:T1	
+R10	supports Arg1:T13 Arg2:T11	
+R11	supports Arg1:T15 Arg2:T11	
+R12	supports Arg1:T16 Arg2:T11	
+R13	supports Arg1:T17 Arg2:T11	
+R14	supports Arg1:T14 Arg2:T11	
+R15	supports Arg1:T12 Arg2:T11	
+R16	attacks Arg1:T11 Arg2:T1	

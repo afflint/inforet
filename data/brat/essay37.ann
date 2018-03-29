@@ -1,0 +1,55 @@
+T1	Premise 70 184	International sporting events are a good change to create a multi-nation community of fans having the same passion
+T2	Premise 186 249	It will help people around the world understand each other more
+T3	MajorClaim 258 384	international sporting occasions are essential in easing international tensions and releasing patriotic emotions in a safe way
+T4	Claim 640 685	it is useful to ease tensions between nations
+A1	Stance T4 For
+T5	Premise 386 493	An international sporting event is normal held in a country with huge interest from fans all over the world
+T6	Premise 495 594	For the time of occasions, people regardless of nationality, origin and religion will live together
+T7	Premise 596 638	People can understand more about a country
+T8	Premise 699 808	in FIFA World Cup 2010, the relation between North Korea and South Korea is dangerous for the warship sinking
+T9	Premise 810 866	The world suspected North Korea of the aggressive action
+T10	Premise 877 941	due to this event North Korea showed a friendship and enthuasism
+T11	Premise 943 1000	It is rare times when people can learn about this country
+T12	Claim 1002 1041	It really help to alleviate the tension
+A2	Stance T12 For
+T13	Claim 1068 1156	an international sporting event also helps fans release patriotic emotions in a safe way
+A3	Stance T13 For
+T14	Premise 1158 1249	When they garther together to encourage their team, they will show their patriotic emotions
+T15	Premise 1251 1381	Regardless of the competition between teams, their emotions are always released in a safe way due to the sole passion of the sport
+T16	Premise 1393 1497	all fans know that a sport event will attract the attention of whole the world and a lot of public media
+T17	Premise 1499 1568	They will try to create a beautiful image about their land and people
+T18	Premise 1570 1678	In Olympic Beijing 2008, Chinese tried thier best to bring the world a spectacular image about their country
+T19	Premise 1694 1789	foreigners came here always received the support of friendly volunteers who were young students
+T20	Premise 1791 1860	They were welcomed by each Chinese hospitality, beauty in each cities
+T21	Premise 1862 1968	Everythings is created by patriotic emotions of Chinese who wanted to bring a beautiful China to the world
+T22	Premise 1985 2050	International sporting events will draw the international concern
+T23	Claim 2052 2166	It will make the world more peaceful by easing internation tensions and releasing patriotic emotions in a safe way
+A4	Stance T23 For
+R1	supports Arg1:T1 Arg2:T3	
+R2	supports Arg1:T2 Arg2:T3	
+R3	supports Arg1:T5 Arg2:T6	
+R4	supports Arg1:T6 Arg2:T4	
+R5	supports Arg1:T7 Arg2:T4	
+R6	supports Arg1:T8 Arg2:T4	
+R7	supports Arg1:T9 Arg2:T4	
+R8	supports Arg1:T10 Arg2:T4	
+R9	supports Arg1:T11 Arg2:T4	
+R10	supports Arg1:T6 Arg2:T12	
+R11	supports Arg1:T7 Arg2:T12	
+R12	supports Arg1:T8 Arg2:T12	
+R13	supports Arg1:T9 Arg2:T12	
+R14	supports Arg1:T10 Arg2:T12	
+R15	supports Arg1:T11 Arg2:T12	
+R16	supports Arg1:T4 Arg2:T3	
+R17	supports Arg1:T12 Arg2:T3	
+R18	supports Arg1:T14 Arg2:T13	
+R19	supports Arg1:T15 Arg2:T13	
+R20	supports Arg1:T18 Arg2:T17	
+R21	supports Arg1:T17 Arg2:T13	
+R22	supports Arg1:T16 Arg2:T13	
+R23	supports Arg1:T19 Arg2:T13	
+R24	supports Arg1:T20 Arg2:T13	
+R25	supports Arg1:T21 Arg2:T13	
+R26	supports Arg1:T13 Arg2:T3	
+R27	supports Arg1:T22 Arg2:T23	
+R28	supports Arg1:T23 Arg2:T3	

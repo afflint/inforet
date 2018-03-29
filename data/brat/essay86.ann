@@ -1,0 +1,21 @@
+T1	MajorClaim 448 550	the main functions of universities as the highest educational institution are teaching and researching
+T2	Claim 868 980	universities are not only continuation of schooling but a platform where people start knowing more about society
+A1	Stance T2 For
+T3	Claim 561 719	imparting knowledge and educating people are basic duty of universities where people decide career direction and acquire more specialized knowledge and skills
+A2	Stance T3 For
+T4	Premise 721 852	Systematic and comprehensive training programs in specific fields urge people to master information required quickly and thoroughly
+T5	Premise 982 1187	The essential social capabilities such as communication skills, teamwork, leadership and time management are gradually cultivated with group workshops and various kinds of social activities in universities
+T6	Claim 1199 1379	universities playing the most important role in education system have to guarantee the knowledge conveyed is true and useful, which can be achieved through the researching function
+A3	Stance T6 For
+T7	Premise 1381 1569	Old knowledge is applied to particular problems during research and solutions found often bring about innovations in culture and technology to promote human and communities to step forward
+T8	Claim 1766 1851	teaching and researching working together lead to the success of today's universities
+A5	Stance T8 For
+T9	Premise 1586 1759	it can be seen that universities produce a great many of talents with outstanding teaching and advance the progress of human society with achievements in scientific research
+R1	supports Arg1:T4 Arg2:T3	
+R2	supports Arg1:T5 Arg2:T2	
+R3	supports Arg1:T7 Arg2:T6	
+R4	supports Arg1:T9 Arg2:T8	
+R5	supports Arg1:T3 Arg2:T1	
+R6	supports Arg1:T2 Arg2:T1	
+R7	supports Arg1:T6 Arg2:T1	
+R8	supports Arg1:T8 Arg2:T1	

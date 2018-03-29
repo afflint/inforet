@@ -1,0 +1,34 @@
+T1	Claim 216 316	for the more higher education like university, the students or their parents should pay for the fees
+A1	Stance T1 For
+T2	Premise 318 400	Some parents might not have enough money to pay for their children university fees
+T3	Premise 421 469	I don't think it is also fair for the government
+T4	Premise 473 570	the government has been paying a lot of money for their students' primary and secondary education
+T5	Claim 572 651	It is better for them to use the money to pay for the other students' education
+A2	Stance T5 For
+T6	Premise 660 720	all people in their country could receive the same education
+T7	Premise 732 814	students that already have a basic knowledge and education can get a part-time job
+T8	Claim 819 898	they can pay for their own studies when their parent could not afford to pay it
+A3	Stance T8 For
+T9	Premise 900 982	They will be more responsible with their studies when they pay the fees themselves
+T10	Premise 1005 1046	the students will become more independent
+T11	Claim 1051 1108	it will build their characters in the marketplace as well
+A4	Stance T11 For
+T12	Claim 1123 1232	this will encourage all the parents to think of the way to help their children to achieve more in their lives
+A5	Stance T12 For
+T13	Premise 1236 1301	they need to make some contribution too for their children future
+T14	MajorClaim 1342 1391	government should not pay for the university fees
+T15	Premise 1400 1558	this will make both the parents and students in charge for their future themselves not just depend on the government to do all their responsibilities for them
+R1	attacks Arg1:T2 Arg2:T5	
+R2	supports Arg1:T3 Arg2:T5	
+R3	supports Arg1:T4 Arg2:T3	
+R4	supports Arg1:T6 Arg2:T5	
+R5	supports Arg1:T7 Arg2:T8	
+R6	supports Arg1:T10 Arg2:T11	
+R7	supports Arg1:T9 Arg2:T11	
+R8	supports Arg1:T13 Arg2:T12	
+R9	supports Arg1:T15 Arg2:T14	
+R10	supports Arg1:T1 Arg2:T14	
+R11	supports Arg1:T5 Arg2:T14	
+R12	supports Arg1:T8 Arg2:T14	
+R13	supports Arg1:T12 Arg2:T14	
+R14	supports Arg1:T11 Arg2:T14	
