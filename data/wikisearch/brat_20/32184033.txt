@@ -1,2 +1,0 @@
-FL Studio Mobile is a digital audio workstation available for Android, iOS and Windows UWP.
-The program allows for the creation of complete multi-track music projects, which can then be exported in WAV, MP3 and MIDI formats, to work with other digital audio workstations, or in .FLM project format to be opened in FL Studio 10.0.5  or later. Various features include a step sequencer, piano roll, keyboard, drum pad, track editor, effects, and 133 sampled instruments including synths and drum kits. Instruments can also be added as .zip or .instr files.
