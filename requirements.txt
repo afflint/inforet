@@ -1,0 +1,13 @@
+gensim==3.4.0
+jupyter==1.0.0
+langdetect==1.0.7
+matplotlib==2.2.2
+nbimporter==0.3.1
+networkx==2.1
+nltk==3.2.5
+numpy==1.14.2
+Pattern==2.6
+pymongo==3.6.1
+scikit-learn==0.19.1
+scipy==1.0.1
+wikipedia==1.4.0
