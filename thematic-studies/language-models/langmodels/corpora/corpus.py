@@ -38,17 +38,22 @@ class UnsupportedLanguage(Exception):
 class Corpus(ABC):
 
     def __init__(self, drop_stopwords: bool = False,
-                 use_pos: bool = False, language='english'):
+                 use_pos: bool = False, language='english',
+                 pos_filter: list = None, lemma: bool = False):
         """
         We currently use nltk for tokenization whenever possible and spacy for pos detection.
         :param drop_stopwords: if True stopwords are removed
         :param use_pos: if True POS sequences are returned instead of token sequences
         :param language: language to use for spacy and nltk models
+        :param pos_filter: if given, filters only specified pos
+        :param lemma: if True keep only the lemma
         """
         self.drop_stopwords = drop_stopwords
         self.use_pos = use_pos
         self.language = language
         self.stopwords = set(stopwords.words(self.language))
+        self.pos_filter = pos_filter
+        self.lemma = lemma
         try:
             self.nlp = spacy.load(SPACY_MODELS[self.language])
         except KeyError:
@@ -70,8 +75,11 @@ class Corpus(ABC):
             return True
 
     def _tokenize(self, text):
-        t = re.sub(r'(?<=\S)\.(?=\w)', '. ', text)
-        return [x for x in word_tokenize(t.lower()) if self._check(x)]
+        try:
+            t = re.sub(r'(?<=\S)\.(?=\w)', '. ', text)
+            return [x for x in word_tokenize(t.lower()) if self._check(x)]
+        except TypeError:
+            return []
 
     def _pos_tokenize(self, text):
         return [x.pos_ for x in self.nlp(text.lower())]
@@ -80,7 +88,18 @@ class Corpus(ABC):
         if self.use_pos:
             return self._pos_tokenize(text)
         else:
-            return self._tokenize(text)
+            if self.pos_filter is None and not self.lemma:
+                return self._tokenize(text)
+            elif self.lemma:
+                if self.pos_filter is not None:
+                    return [x.lemma_ for x in self.nlp(text.lower()) if x.pos_ in self.pos_filter]
+                else:
+                    return [x.text for x in self.nlp(text.lower()) if x.pos_ in self.pos_filter]
+            else:
+                if self.pos_filter is not None:
+                    return [x.text for x in self.nlp(text.lower()) if x.pos_ in self.pos_filter]
+                else:
+                    return self._tokenize(text)
 
     @abstractmethod
     def get_tokens(self) -> list:

@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b619cdc2-9708-4599-a4f0-70d391532218" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/thematic-studies/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thematic-studies/language-models/L02-corpus_test.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thematic-studies/language-models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thematic-studies/language-models/langmodels/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/corpus.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/moviedialog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/ngrams_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thematic-studies/language-models/L00-dataset-exploration.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/thematic-studies/language-models/L00-dataset-exploration.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thematic-studies/language-models/langmodels/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thematic-studies/language-models/langmodels/models/ngram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inforet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inforet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thematic-studies/language-models/docs/lm_package.graffle" beforeDir="false" afterPath="$PROJECT_DIR$/thematic-studies/language-models/docs/lm_package.graffle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/corpus.py" beforeDir="false" afterPath="$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/corpus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/moviedialog.py" beforeDir="false" afterPath="$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/moviedialog.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/ngrams_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="719">
-              <caret line="112" selection-start-line="112" selection-end-line="112" />
+            <state relative-caret-position="460">
+              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
               <folding>
                 <element signature="e#887#901#0" expanded="true" />
               </folding>
@@ -33,13 +31,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/corpus.py">
+        <entry file="file://$PROJECT_DIR$/thematic-studies/language-models/langmodels/models/ngram.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1063">
-              <caret line="82" column="39" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
-              <folding>
-                <element signature="e#252#287#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="560">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -47,10 +42,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/moviedialog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="405">
+              <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
               <folding>
                 <element signature="e#912#938#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/corpus.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="843">
+              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+              <folding>
+                <element signature="e#252#287#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,8 +68,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -76,20 +83,10 @@
         <option value="$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/movie_dialogs.py" />
         <option value="$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/__init__.py" />
         <option value="$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/ngrams_example.py" />
-        <option value="$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/corpus.py" />
         <option value="$PROJECT_DIR$/thematic-studies/language-models/langmodels/L02-corpus_test.ipynb" />
+        <option value="$PROJECT_DIR$/thematic-studies/language-models/langmodels/models/ngram.py" />
+        <option value="$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/corpus.py" />
         <option value="$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/moviedialog.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/inforet.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       </list>
     </option>
   </component>
@@ -136,6 +133,14 @@
               <item name="langmodels" type="462c0819:PsiDirectoryNode" />
               <item name="corpora" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="inforet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inforet" type="462c0819:PsiDirectoryNode" />
+              <item name="thematic-studies" type="462c0819:PsiDirectoryNode" />
+              <item name="language-models" type="462c0819:PsiDirectoryNode" />
+              <item name="langmodels" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -144,6 +149,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -168,6 +174,35 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="ngram" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="inforet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/thematic-studies/language-models/langmodels/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thematic-studies/language-models/langmodels/models/ngram.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ngram" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -183,23 +218,24 @@
       <workItem from="1587556837373" duration="1036000" />
       <workItem from="1587644959809" duration="3263000" />
       <workItem from="1587725406383" duration="8522000" />
+      <workItem from="1588150867965" duration="2346000" />
+      <workItem from="1588193806500" duration="1103000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18399000" />
+    <option name="totallyTimeSpent" value="21848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1653" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20732464" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2122905" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Jupyter" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49968964" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -207,9 +243,10 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50031036" side_tool="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Jupyter" order="13" visible="true" weight="0.32941177" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -220,31 +257,14 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/inforet$ngram.coverage" NAME="ngram Coverage Results" MODIFIED="1588153295207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thematic-studies/language-models/langmodels/models" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/corpus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1063">
-          <caret line="82" column="39" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
-          <folding>
-            <element signature="e#252#287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/ngrams_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="719">
-          <caret line="112" selection-start-line="112" selection-end-line="112" />
-          <folding>
-            <element signature="e#887#901#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -257,10 +277,37 @@
     <entry file="file://$PROJECT_DIR$/thematic-studies/language-models/L02-corpus_test.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/ngrams_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+          <folding>
+            <element signature="e#887#901#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thematic-studies/language-models/langmodels/models/ngram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/corpus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="843">
+          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+          <folding>
+            <element signature="e#252#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/moviedialog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="405">
+          <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
           <folding>
             <element signature="e#912#938#0" expanded="true" />
           </folding>

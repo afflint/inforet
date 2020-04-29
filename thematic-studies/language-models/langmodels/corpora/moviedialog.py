@@ -38,12 +38,29 @@ class MalformedCollection(Exception):
             return "MalformedCollection"
 
 
+class EntityNotFound(Exception):
+
+    def __init__(self, *args):
+        if args > 1:
+            self.entity, self.id = args[0], args[1]
+        else:
+            self.entity, self.id = None, None
+
+    def __str__(self):
+        if self.entity and self.id:
+            return "EntityNotFound: Entity `{}` with id `{}` is not found in corpus".format(self.entity, self.id)
+        else:
+            return "EntityNotFound"
+
+
 class MovieDialogCollection(Corpus):
 
     def __init__(self, db_name: str, collection_name: str,
                  drop_stopwords: bool = False, use_pos: bool = False,
-                 language='english', pipeline: list = None):
-        super().__init__(drop_stopwords=drop_stopwords, use_pos=use_pos, language=language)
+                 language='english', pipeline: list = None,
+                 pos_filter: list = None, lemma: bool = False):
+        super().__init__(drop_stopwords=drop_stopwords, use_pos=use_pos, language=language,
+                         pos_filter=pos_filter, lemma=lemma)
         self.db = pymongo.MongoClient()[db_name]
         self.collection = self.db[collection_name]
         if pipeline is None:
@@ -54,7 +71,10 @@ class MovieDialogCollection(Corpus):
     def __iter__(self):
         for record in self.collection.aggregate(self.pipeline, allowDiskUse=True):
             try:
-                yield record['id'], record['text']
+                if record['text'] is not None:
+                    yield record['id'], record['text']
+                else:
+                    pass
             except KeyError:
                 raise MalformedCollection(self.collection.name)
 
@@ -77,3 +97,23 @@ class MovieDialogCollection(Corpus):
         return list(v)
 
 
+class MovieDialogMovie(MovieDialogCollection):
+
+    def __init__(self, movie_id: str,
+                 db_name: str, drop_stopwords: bool = False,
+                 use_pos: bool = False,
+                 language='english', pipeline: list = None,
+                 pos_filter: list = None, lemma: bool = False):
+        super().__init__(db_name, 'movies', drop_stopwords, use_pos, language, pipeline,
+                         pos_filter, lemma)
+        self.movie_id = movie_id
+        self.fields = ['title', 'year', 'rating', 'votes', 'genres']
+        for field in self.fields:
+            setattr(self, field, None)
+        metadata = self.collection.find_one({'id': self.movie_id})
+        if metadata is None:
+            raise EntityNotFound(self.__class__.__name__, self.movie_id)
+        else:
+            for k, v in metadata.items():
+                if k != '_id':
+                    setattr(self, k, v)
