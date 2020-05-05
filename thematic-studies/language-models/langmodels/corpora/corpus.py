@@ -101,6 +101,16 @@ class Corpus(ABC):
                 else:
                     return self._tokenize(text)
 
+    @staticmethod
+    def skip(sequence, n=2, s=2):
+        k_grams = []
+        for i in range(len(sequence)):
+            for z in range(s):
+                seq = [sequence[i]] + sequence[i + z + 1:i + z + n]
+                if len(seq) == n and seq not in k_grams:
+                    k_grams.append(tuple(seq))
+        return k_grams
+
     @abstractmethod
     def get_tokens(self) -> list:
         """

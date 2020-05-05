@@ -81,6 +81,9 @@ class MovieDialogCollection(Corpus):
     def get_tokens(self) -> list:
         return [(id, self.tokenize(text)) for id, text in self]
 
+    def get_skip_tokens(self, n=2, s=2):
+        return [(id, Corpus.skip(self.tokenize(text), n=n, s=s)) for id, text in self]
+
     def get_text(self) -> list:
         return [(id, text) for id, text in self]
 
@@ -95,6 +98,13 @@ class MovieDialogCollection(Corpus):
             for token in tokens:
                 v.add(token)
         return list(v)
+
+    @property
+    def word_count(self) -> int:
+        w = 0
+        for id, tokens in self.get_tokens():
+            w += len(tokens)
+        return w
 
 
 class MovieDialogMovie(MovieDialogCollection):

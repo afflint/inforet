@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b619cdc2-9708-4599-a4f0-70d391532218" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/thematic-studies/language-models/langmodels/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thematic-studies/language-models/langmodels/models/ngram.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inforet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inforet.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thematic-studies/language-models/docs/lm_package.graffle" beforeDir="false" afterPath="$PROJECT_DIR$/thematic-studies/language-models/docs/lm_package.graffle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/corpus.py" beforeDir="false" afterPath="$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/corpus.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/moviedialog.py" beforeDir="false" afterPath="$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/moviedialog.py" afterDir="false" />
     </list>
@@ -42,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/moviedialog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+            <state relative-caret-position="617">
+              <caret line="84" column="86" selection-start-line="84" selection-start-column="86" selection-end-line="84" selection-end-column="86" />
               <folding>
                 <element signature="e#912#938#0" expanded="true" />
               </folding>
@@ -54,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/corpus.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="843">
-              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+            <state relative-caret-position="616">
+              <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
               <folding>
                 <element signature="e#252#287#0" expanded="true" />
               </folding>
@@ -100,6 +96,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,7 +142,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,18 +215,19 @@
       <workItem from="1587644959809" duration="3263000" />
       <workItem from="1587725406383" duration="8522000" />
       <workItem from="1588150867965" duration="2346000" />
-      <workItem from="1588193806500" duration="1103000" />
+      <workItem from="1588193806500" duration="1378000" />
+      <workItem from="1588684885389" duration="2160000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21848000" />
+    <option name="totallyTimeSpent" value="24283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1653" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2122905" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21477343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -296,8 +293,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/corpus.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="843">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+        <state relative-caret-position="616">
+          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
           <folding>
             <element signature="e#252#287#0" expanded="true" />
           </folding>
@@ -306,8 +303,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/moviedialog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+        <state relative-caret-position="617">
+          <caret line="84" column="86" selection-start-line="84" selection-start-column="86" selection-end-line="84" selection-end-column="86" />
           <folding>
             <element signature="e#912#938#0" expanded="true" />
           </folding>
