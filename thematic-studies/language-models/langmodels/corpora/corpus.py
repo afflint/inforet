@@ -38,18 +38,21 @@ class UnsupportedLanguage(Exception):
 class Corpus(ABC):
 
     def __init__(self, drop_stopwords: bool = False,
-                 use_pos: bool = False, language='english',
+                 use_pos: bool = False, mix_pos: bool = False,
+                 language='english',
                  pos_filter: list = None, lemma: bool = False):
         """
         We currently use nltk for tokenization whenever possible and spacy for pos detection.
         :param drop_stopwords: if True stopwords are removed
         :param use_pos: if True POS sequences are returned instead of token sequences
+        :param mix_pos: if True POS are combined with tokens, like cat_NOUN
         :param language: language to use for spacy and nltk models
         :param pos_filter: if given, filters only specified pos
         :param lemma: if True keep only the lemma
         """
         self.drop_stopwords = drop_stopwords
         self.use_pos = use_pos
+        self.mix_pos = mix_pos
         self.language = language
         self.stopwords = set(stopwords.words(self.language))
         self.pos_filter = pos_filter
@@ -86,20 +89,41 @@ class Corpus(ABC):
 
     def tokenize(self, text):
         if self.use_pos:
-            return self._pos_tokenize(text)
+            tokens = self._pos_tokenize(text)
         else:
             if self.pos_filter is None and not self.lemma:
-                return self._tokenize(text)
+                if self.mix_pos:
+                    tokens = ["{}_{}".format(x.text, x.pos_) for x in self.nlp(text.lower())]
+                else:
+                    tokens = self._tokenize(text)
             elif self.lemma:
                 if self.pos_filter is not None:
-                    return [x.lemma_ for x in self.nlp(text.lower()) if x.pos_ in self.pos_filter]
+                    if self.mix_pos:
+                        tokens = ["{}_{}".format(x.lemma_, x.pos_) for x in
+                                  self.nlp(text.lower()) if x.pos_ in self.pos_filter]
+                    else:
+                        tokens = [x.lemma_ for x in self.nlp(
+                            text.lower()) if x.pos_ in self.pos_filter]
                 else:
-                    return [x.text for x in self.nlp(text.lower()) if x.pos_ in self.pos_filter]
+                    if self.mix_pos:
+                        tokens = ["{}_{}".format(x.lemma_, x.pos_) for x in
+                                  self.nlp(text.lower())]
+                    else:
+                        tokens = [x.lemma_ for x in self.nlp(text.lower())]
             else:
                 if self.pos_filter is not None:
-                    return [x.text for x in self.nlp(text.lower()) if x.pos_ in self.pos_filter]
+                    if self.mix_pos:
+                        tokens = ["{}_{}".format(x.text, x.pos_) for x in
+                                  self.nlp(text.lower()) if x.pos_ in self.pos_filter]
+                    else:
+                        tokens = [x.text for x in self.nlp(
+                            text.lower()) if x.pos_ in self.pos_filter]
                 else:
-                    return self._tokenize(text)
+                    if self.mix_pos:
+                        tokens = ["{}_{}".format(x.text, x.pos_) for x in self.nlp(text.lower())]
+                    else:
+                        tokens = self._tokenize(text)
+        return tokens
 
     @staticmethod
     def skip(sequence, n=2, s=2):
@@ -142,4 +166,3 @@ class Corpus(ABC):
         :return: list, unique tokens
         """
         return []
-

@@ -57,9 +57,12 @@ class MovieDialogCollection(Corpus):
 
     def __init__(self, db_name: str, collection_name: str,
                  drop_stopwords: bool = False, use_pos: bool = False,
+                 mix_pos: bool = False,
                  language='english', pipeline: list = None,
                  pos_filter: list = None, lemma: bool = False):
-        super().__init__(drop_stopwords=drop_stopwords, use_pos=use_pos, language=language,
+        super().__init__(drop_stopwords=drop_stopwords, use_pos=use_pos,
+                         mix_pos=mix_pos,
+                         language=language,
                          pos_filter=pos_filter, lemma=lemma)
         self.db = pymongo.MongoClient()[db_name]
         self.collection = self.db[collection_name]
@@ -69,14 +72,16 @@ class MovieDialogCollection(Corpus):
             self.pipeline = pipeline
 
     def __iter__(self):
-        for record in self.collection.aggregate(self.pipeline, allowDiskUse=True):
-            try:
-                if record['text'] is not None:
-                    yield record['id'], record['text']
-                else:
-                    pass
-            except KeyError:
-                raise MalformedCollection(self.collection.name)
+        cursor = self.collection.aggregate(self.pipeline, allowDiskUse=True, maxTimeMS=100000000)
+        with cursor:
+            for record in cursor:
+                try:
+                    if record['text'] is not None:
+                        yield record['id'], record['text']
+                    else:
+                        pass
+                except KeyError:
+                    raise MalformedCollection(self.collection.name)
 
     def get_tokens(self) -> list:
         return [(id, self.tokenize(text)) for id, text in self]
@@ -112,9 +117,12 @@ class MovieDialogMovie(MovieDialogCollection):
     def __init__(self, movie_id: str,
                  db_name: str, drop_stopwords: bool = False,
                  use_pos: bool = False,
+                 mix_pos: bool = False,
                  language='english', pipeline: list = None,
                  pos_filter: list = None, lemma: bool = False):
-        super().__init__(db_name, 'movies', drop_stopwords, use_pos, language, pipeline,
+        super().__init__(db_name, 'movies', drop_stopwords, use_pos,
+                         mix_pos,
+                         language, pipeline,
                          pos_filter, lemma)
         self.movie_id = movie_id
         self.fields = ['title', 'year', 'rating', 'votes', 'genres']
