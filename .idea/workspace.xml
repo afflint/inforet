@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b619cdc2-9708-4599-a4f0-70d391532218" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/corpus.py" beforeDir="false" afterPath="$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/corpus.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/moviedialog.py" beforeDir="false" afterPath="$PROJECT_DIR$/thematic-studies/language-models/langmodels/corpora/moviedialog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thematic-studies/language-models/L07-pytorch-lang-model-basics.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/thematic-studies/language-models/L07-pytorch-lang-model-basics.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +11,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thematic-studies/language-models/L07-pytorch-lang-model-basics.ipynb">
+          <provider selected="true" editor-type-id="jupyter-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,6 +54,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -68,34 +73,10 @@
               <item name="thematic-studies" type="462c0819:PsiDirectoryNode" />
               <item name="language-models" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="inforet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inforet" type="462c0819:PsiDirectoryNode" />
-              <item name="thematic-studies" type="462c0819:PsiDirectoryNode" />
-              <item name="language-models" type="462c0819:PsiDirectoryNode" />
-              <item name="langmodels" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="inforet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inforet" type="462c0819:PsiDirectoryNode" />
-              <item name="thematic-studies" type="462c0819:PsiDirectoryNode" />
-              <item name="language-models" type="462c0819:PsiDirectoryNode" />
-              <item name="langmodels" type="462c0819:PsiDirectoryNode" />
-              <item name="corpora" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="inforet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inforet" type="462c0819:PsiDirectoryNode" />
-              <item name="thematic-studies" type="462c0819:PsiDirectoryNode" />
-              <item name="language-models" type="462c0819:PsiDirectoryNode" />
-              <item name="langmodels" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -174,16 +155,18 @@
       <workItem from="1589197900788" duration="3528000" />
       <workItem from="1589549284726" duration="285000" />
       <workItem from="1589550520745" duration="19000" />
+      <workItem from="1589554555158" duration="372000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28751000" />
+    <option name="totallyTimeSpent" value="29123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1653" height="1027" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22222222" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22470514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -199,7 +182,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50031036" side_tool="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="bottom" id="Jupyter" order="13" visible="true" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Jupyter" order="13" visible="true" weight="0.32861805" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -266,6 +249,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thematic-studies/language-models/L07-pytorch-lang-model-basics.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
   </component>
 </project>
