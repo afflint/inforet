@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b619cdc2-9708-4599-a4f0-70d391532218" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2020-21/wikisearch/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2020-21/wikisearch/retrieval.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-21/wikisearch.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/2020-21/wikisearch.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-21/wikisearch/retrieval.py" beforeDir="false" afterPath="$PROJECT_DIR$/2020-21/wikisearch/retrieval.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,11 +23,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="08ca62c7-6980-4d0a-b7f1-b2e2beb3c436" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1263" />
-    <option name="height" value="1027" />
-  </component>
   <component name="ProjectId" id="1psjmdJfGEqer5qUjIg5159V94H" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -100,6 +95,7 @@
       <workItem from="1589550520745" duration="19000" />
       <workItem from="1589554555158" duration="372000" />
       <workItem from="1615978857923" duration="8158000" />
+      <workItem from="1616071479767" duration="3776000" />
     </task>
     <servers />
   </component>

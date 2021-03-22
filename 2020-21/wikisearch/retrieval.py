@@ -24,6 +24,7 @@ import numpy as np
 import nltk
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+import spacy
 
 
 class Tokenizer(ABC):
@@ -68,6 +69,16 @@ class NLTKTokenizer(Tokenizer):
 
     def tokenize(self, text: str) -> List[str]:
         return nltk.word_tokenize(text)
+
+
+class SpacyTokenizer(Tokenizer):
+
+    def __init__(self):
+        self.nlp = spacy.load("en_core_web_sm")
+
+    def tokenize(self, text: str) -> List[str]:
+        return [token.lemma_ for token in self.nlp(text) if
+                token.pos_ in ['NOUN', 'PROPN', 'VERB', 'ADJ', 'ADV']]
 
 
 class TfIdfVectors(Vectorizer):
