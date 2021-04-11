@@ -102,11 +102,14 @@ class WikiDataset(object):
         self.documents = []
         self.queries = []
         self.entities = []
+        self.labels = []
         for document in self.D:
             self.documents.append(document['document'])
             self.entities.append(document['entity'])
             self.queries.append(document['query'])
+            self.labels.append(document['target'])
         self.query_map = dict([(q, self.entities[i]) for i, q in enumerate(self.queries)])
+        self.entity_label = dict([(e, self.labels[i]) for i, e in enumerate(self.entities)])
 
     def get_queries(self):
         return list(self.query_map.keys())
