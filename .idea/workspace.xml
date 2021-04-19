@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b619cdc2-9708-4599-a4f0-70d391532218" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/2020-21/latent-semantics.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/2020-21/latent-semantics.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-21/playground.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/2020-21/playground.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-21/svd-primer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/2020-21/svd-primer.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-21/topic-modeling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/2020-21/topic-modeling.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-21/wikisearch/retrieval.py" beforeDir="false" afterPath="$PROJECT_DIR$/2020-21/wikisearch/retrieval.py" afterDir="false" />
-    </list>
+    <list default="true" id="b619cdc2-9708-4599-a4f0-70d391532218" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +92,7 @@
       <workItem from="1589554555158" duration="372000" />
       <workItem from="1615978857923" duration="8158000" />
       <workItem from="1616071479767" duration="3776000" />
-      <workItem from="1618133713634" duration="156000" />
+      <workItem from="1618133713634" duration="637000" />
     </task>
     <servers />
   </component>
