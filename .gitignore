@@ -4,6 +4,8 @@ data/*
 # keep data README
 !data/README.md 
 
+.idea/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
