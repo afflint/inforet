@@ -47,7 +47,12 @@ class TwitterDataset(object):
         q_tweets = set()
         data_ids = data[data['name'] == query].id.values
         for did in data_ids:
-            q_tweets = q_tweets.union(set(self.M[self.M.entity == did].tweet.values))
+            if query_type == ENTITY:
+                q_tweets = q_tweets.union(set(self.M[self.M.entity == did].tweet.values))
+            elif query_type == DOMAIN:
+                q_tweets = q_tweets.union(set(self.M[self.M.domain == did].tweet.values))
+            else:
+                q_tweets = set()
         return q_tweets
 
     @property
