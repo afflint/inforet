@@ -1,6 +1,8 @@
 # exclude everything from  data
 data/*
 
+.idea
+
 # keep data README
 !data/README.md 
 
