@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b619cdc2-9708-4599-a4f0-70d391532218" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021-22/twitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021-22/twitter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-23/google-retrieval-usecase.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/2022-23/google-retrieval-usecase.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-23/lda-usecase.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/2022-23/lda-usecase.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +98,7 @@
       <workItem from="1616071479767" duration="3776000" />
       <workItem from="1618133713634" duration="637000" />
       <workItem from="1647618534325" duration="314000" />
+      <workItem from="1679583054442" duration="1129000" />
     </task>
     <servers />
   </component>
