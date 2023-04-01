@@ -13,9 +13,9 @@ For further details and more advanced methods, check out the official documentat
 
 ### PyTorch: Building NNs
 
-[**Deep_Learning_with_PyTorch.ipynb**](./Deep_Learning_with_PyTorch.ipynb) notebook delves deeper into PyTorch functional. We explore the core PyTorch features and  learn the fundamentals underlying PyTorch deep learning applications, such as computational graphs and automatic differentiation. Finally, we build our first Neural Network and set up the routines for neural network training.
+[**Deep_Learning_in_PyTorch.ipynb**](./Deep_Learning_in_PyTorch.ipynb) and [**Deep_Learning_Pipeline_in_PyTorch.ipynb**](./Deep_Learning_Pipeline_in_PyTorch.ipynb)  delve deeper into PyTorch functional. We explore the core PyTorch features and  learn the fundamentals underlying PyTorch deep learning applications, such as computational graphs and automatic differentiation. Finally, we build our first Neural Network and set up the routine for the neural network training.
 
 ### Practice: Yelp Reviews Classification :)
 
-Now it's time to leave the sandbox and have fun with some real world deep learning application. In [**Neural_Sentiment_Classification.ipynb**](./Neural_Sentiment_Classification.ipynb)  we'll design a neural model to classify the sentiment on Yelp Restaurant Reviews. You can download the dataset using the following link. [yelp_reviews](https://drive.google.com/open?id=1Lmv4rsJiCWVs1nzs4ywA9YI-ADsTf6WB)
+Now it's time to leave the sandbox and have fun with some real world deep learning application. In [**Neural_Sentiment_Classification_eith_Perceptrom.ipynb**](./Neural_Sentiment_Classification_with_Perceptron.ipynb)  we'll design a neural model to classify the sentiment on Yelp Restaurant Reviews. You can download the dataset using the following link. [yelp_reviews](https://drive.google.com/open?id=1Lmv4rsJiCWVs1nzs4ywA9YI-ADsTf6WB)
 
